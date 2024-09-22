@@ -3,7 +3,6 @@ import "./style.css";
 import logo from "./enchant_icon.webp";
 import recipeList from "./recipe_list.json";
 
-// Add this line at the top of your file
 const API_KEY = process.env.REACT_APP_BLIZZARD_API_KEY;
 
 function Splash() {
