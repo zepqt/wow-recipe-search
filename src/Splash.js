@@ -3,6 +3,9 @@ import "./style.css";
 import logo from "./enchant_icon.webp";
 import recipeList from "./recipe_list.json";
 
+// Add this line at the top of your file
+const API_KEY = process.env.REACT_APP_BLIZZARD_API_KEY;
+
 function Splash() {
   const [searchTerm, setSearchTerm] = useState("");
   const [suggestions, setSuggestions] = useState([]);
@@ -29,8 +32,8 @@ function Splash() {
     setIsLoading(true);
     try {
       const [recipeResponse, mediaResponse] = await Promise.all([
-        fetch(`https://us.api.blizzard.com/data/wow/recipe/${recipeId}?namespace=static-us&locale=en_US&access_token=USjhkBc5JckZh1lfRhQQ4fJNWOtpVxy8Sk`),
-        fetch(`https://us.api.blizzard.com/data/wow/media/recipe/${recipeId}?namespace=static-us&locale=en_US&access_token=USjhkBc5JckZh1lfRhQQ4fJNWOtpVxy8Sk`)
+        fetch(`https://us.api.blizzard.com/data/wow/recipe/${recipeId}?namespace=static-us&locale=en_US&access_token=${API_KEY}`),
+        fetch(`https://us.api.blizzard.com/data/wow/media/recipe/${recipeId}?namespace=static-us&locale=en_US&access_token=${API_KEY}`)
       ]);
 
       const recipeData = await recipeResponse.json();
@@ -43,7 +46,7 @@ function Splash() {
       const spellId = matchedRecipe ? matchedRecipe.SpellID : recipeId;
 
       const reagentsWithIcons = await Promise.all(recipeData.reagents.map(async (reagent) => {
-        const reagentMediaResponse = await fetch(`https://us.api.blizzard.com/data/wow/media/item/${reagent.reagent.id}?namespace=static-us&locale=en_US&access_token=USjhkBc5JckZh1lfRhQQ4fJNWOtpVxy8Sk`);
+        const reagentMediaResponse = await fetch(`https://us.api.blizzard.com/data/wow/media/item/${reagent.reagent.id}?namespace=static-us&locale=en_US&access_token=${API_KEY}`);
         const reagentMediaData = await reagentMediaResponse.json();
         return {
           name: reagent.reagent.name,
