@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wow-recipe-search/static/css/main.c43fa623.css",
+    "main.js": "/wow-recipe-search/static/js/main.28f8f0bc.js",
+    "static/js/453.81c842ae.chunk.js": "/wow-recipe-search/static/js/453.81c842ae.chunk.js",
+    "static/media/enchant_icon.webp": "/wow-recipe-search/static/media/enchant_icon.eaa9cc1270fc0a69bc25.webp",
+    "index.html": "/wow-recipe-search/index.html",
+    "main.c43fa623.css.map": "/wow-recipe-search/static/css/main.c43fa623.css.map",
+    "main.28f8f0bc.js.map": "/wow-recipe-search/static/js/main.28f8f0bc.js.map",
+    "453.81c842ae.chunk.js.map": "/wow-recipe-search/static/js/453.81c842ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c43fa623.css",
+    "static/js/main.28f8f0bc.js"
+  ]
+}
