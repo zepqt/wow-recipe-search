@@ -1,0 +1,1288 @@
+RecipeID,SpellID,RecipeName,WowheadName
+1353,2149,Handstitched Leather Boots,Handstitched Leather Boots
+1355,2153,Handstitched Leather Pants,Handstitched Leather Pants
+1356,2152,Light Armor Kit,Light Armor Kit
+1359,2158,Fine Leather Boots,Fine Leather Boots
+1360,2159,Fine Leather Cloak,Fine Leather Cloak
+1362,2160,Embossed Leather Vest,Embossed Leather Vest
+1363,2161,Embossed Leather Boots,Embossed Leather Boots
+1364,2162,Embossed Leather Cloak,Embossed Leather Cloak
+1365,2163,White Leather Jerkin,White Leather Jerkin
+1366,2164,Fine Leather Gloves,Fine Leather Gloves
+1367,2165,Medium Armor Kit,Medium Armor Kit
+1368,2166,Toughened Leather Armor,Toughened Leather Armor
+1369,2167,Dark Leather Boots,Dark Leather Boots
+1370,2168,Dark Leather Cloak,Dark Leather Cloak
+1371,2169,Dark Leather Tunic,Dark Leather Tunic
+1374,2259,Alchemy,Alchemy
+1377,2330,Minor Healing Potion,Minor Healing Potion
+1378,2329,Elixir of Lion's Strength,Elixir of Lion's Strength
+1379,2331,Minor Mana Potion,Minor Mana Potion
+1380,2332,Minor Rejuvenation Potion,Minor Rejuvenation Potion
+1382,2334,Elixir of Minor Fortitude,Elixir of Minor Fortitude
+1383,2335,Swiftness Potion,Swiftness Potion
+1385,2337,Lesser Healing Potion,Lesser Healing Potion
+1387,1180,Daggers,Daggers
+1418,2366,Herb Gathering,Herb Gathering
+1419,2368,Herb Gathering,Herb Gathering
+1442,2383,Find Herbs,Find Herbs
+1532,2550,Cooking,Cooking
+1535,2538,Charred Wolf Meat,Charred Wolf Meat
+1536,2539,Spiced Wolf Meat,Spiced Wolf Meat
+1537,2540,Roasted Boar Meat,Roasted Boar Meat
+1538,2541,Coyote Steak,Coyote Steak
+1539,2542,Goretusk Liver Pie,Goretusk Liver Pie
+1540,2543,Westfall Stew,Westfall Stew
+1543,2544,Crab Cake,Crab Cake
+1544,2545,Cooked Crab Claw,Cooked Crab Claw
+1545,2546,Dry Pork Ribs,Dry Pork Ribs
+1546,2547,Redridge Goulash,Redridge Goulash
+1547,2548,Succulent Pork Ribs,Succulent Pork Ribs
+1548,2549,Seasoned Wolf Kabob,Seasoned Wolf Kabob
+1568,2580,Find Minerals,Find Minerals
+1569,2575,Mining,Mining
+1570,2576,Mining,Mining
+1597,2656,Mining Journal,Smelting
+1599,2658,Smelt Silver,Smelt Silver
+1600,2659,Smelt Bronze,Smelt Bronze
+1631,2660,Rough Sharpening Stone,Rough Sharpening Stone
+1632,2661,Copper Chain Belt,Copper Chain Belt
+1633,2662,Copper Chain Pants,Copper Chain Pants
+1634,2663,Copper Bracers,Copper Bracers
+1635,2664,Runed Copper Bracers,Runed Copper Bracers
+1636,2665,Coarse Sharpening Stone,Coarse Sharpening Stone
+1637,2666,Runed Copper Belt,Runed Copper Belt
+1638,2667,Runed Copper Breastplate,Runed Copper Breastplate
+1639,2668,Rough Bronze Leggings,Rough Bronze Leggings
+1640,2670,Rough Bronze Cuirass,Rough Bronze Cuirass
+1642,2672,Patterned Bronze Bracers,Patterned Bronze Bracers
+1644,2674,Heavy Sharpening Stone,Heavy Sharpening Stone
+1645,2675,Shining Silver Breastplate,Shining Silver Breastplate
+1646,2737,Copper Mace,Copper Mace
+1649,2740,Bronze Mace,Bronze Mace
+1650,2741,Bronze Axe,Bronze Axe
+1651,2738,Copper Axe,Copper Axe
+1652,2739,Copper Shortsword,Copper Shortsword
+1653,2742,Bronze Shortsword,Bronze Shortsword
+1674,2795,Beer Basted Boar Ribs,Beer Basted Boar Ribs
+1708,2881,Light Leather,Light Leather
+1792,3100,Blacksmithing,Blacksmithing
+1793,3101,Alchemy,Alchemy
+1794,3102,Cooking,Cooking
+1795,3104,Leatherworking,Leatherworking
+1798,3115,Rough Weightstone,Rough Weightstone
+1799,3117,Heavy Weightstone,Heavy Weightstone
+1800,3116,Coarse Weightstone,Coarse Weightstone
+1814,3171,Elixir of Wisdom,Elixir of Wisdom
+1816,3173,Lesser Mana Potion,Lesser Mana Potion
+1817,3174,Potion of Curing,Elixir of Poison Resistance
+1819,3176,Strong Troll's Blood Elixir,Strong Troll's Blood Potion
+1820,3177,Elixir of Defense,Elixir of Defense
+1821,2333,Elixir of Lesser Agility,Elixir of Lesser Agility
+1822,3188,Elixir of Ogre's Strength,Elixir of Ogre's Strength
+1832,3170,Weak Troll's Blood Elixir,Weak Troll's Blood Potion
+1833,3230,Elixir of Minor Agility,Elixir of Minor Agility
+1846,3308,Smelt Gold,Smelt Gold
+1847,3307,Smelt Iron,Smelt Iron
+1848,3304,Smelt Tin,Smelt Tin
+1849,3292,Heavy Copper Broadsword,Heavy Copper Broadsword
+1850,3293,Copper Battle Axe,Copper Battle Axe
+1851,3294,Thick War Axe,Thick War Axe
+1852,3295,Deadly Bronze Poniard,Deadly Bronze Poniard
+1853,3296,Heavy Bronze Mace,Heavy Bronze Mace
+1854,3297,Mighty Iron Hammer,Mighty Iron Hammer
+1855,3319,Copper Chain Boots,Copper Chain Boots
+1856,3320,Rough Grinding Stone,Rough Grinding Stone
+1857,3321,Copper Chain Vest,Copper Chain Vest
+1858,3323,Runed Copper Gauntlets,Runed Copper Gauntlets
+1859,3324,Runed Copper Pants,Runed Copper Pants
+1860,3325,Gemmed Copper Gauntlets,Gemmed Copper Gauntlets
+1861,3326,Coarse Grinding Stone,Coarse Grinding Stone
+1862,3328,Rough Bronze Shoulders,Rough Bronze Shoulders
+1863,3330,Silvered Bronze Shoulders,Silvered Bronze Shoulders
+1864,3331,Silvered Bronze Boots,Silvered Bronze Boots
+1865,3333,Silvered Bronze Gauntlets,Silvered Bronze Gauntlets
+1866,3334,Green Iron Boots,Green Iron Boots
+1867,3336,Green Iron Gauntlets,Green Iron Gauntlets
+1868,3337,Heavy Grinding Stone,Heavy Grinding Stone
+1869,3365,Opening,Opening
+1870,3050,Detect,Detect
+1871,3370,Crocolisk Steak,Crocolisk Steak
+1872,3371,Blood Sausage,Blood Sausage
+1873,3372,Murloc Fin Soup,Murloc Fin Soup
+1874,3373,Crocolisk Gumbo,Crocolisk Gumbo
+1875,3376,Curiously Tasty Omelet,Curiously Tasty Omelet
+1876,3377,Gooey Spider Cake,Gooey Spider Cake
+1901,3397,Big Bear Steak,Big Bear Steak
+1902,3398,Hot Lion Chops,Hot Lion Chops
+1903,3399,Tasty Lion Steak,Tasty Lion Steak
+1904,3400,Soothing Turtle Bisque,Soothing Turtle Bisque
+1906,3413,Cooking,Cooking
+1930,3447,Healing Potion,Healing Potion
+1931,3448,Lesser Invisibility Potion,Lesser Invisibility Potion
+1932,3449,Shadow Oil,Shadow Oil
+1933,3450,Elixir of Fortitude,Elixir of Fortitude
+1934,3451,Major Troll's Blood Elixir,Mighty Troll's Blood Potion
+1935,3452,Mana Potion,Mana Potion
+1936,3453,Elixir of Detect Lesser Invisibility,Elixir of Detect Lesser Invisibility
+1937,3454,Frost Oil,Frost Oil
+1938,3464,Alchemy,Alchemy
+1984,3491,Big Bronze Knife,Big Bronze Knife
+1985,3492,Hardened Iron Shortsword,Hardened Iron Shortsword
+1986,3493,Jade Serpentblade,Jade Serpentblade
+1987,3494,Solid Iron Maul,Solid Iron Maul
+1988,3495,Golden Iron Destroyer,Golden Iron Destroyer
+1989,3496,Moonsteel Broadsword,Moonsteel Broadsword
+1990,3497,Frost Tiger Blade,Frost Tiger Blade
+1991,3498,Massive Iron Axe,Massive Iron Axe
+1992,3500,Shadow Crescent Axe,Shadow Crescent Axe
+1993,3501,Green Iron Bracers,Green Iron Bracers
+1994,3502,Green Iron Helm,Green Iron Helm
+1995,3503,Golden Scale Coif,Golden Scale Coif
+1996,3504,Green Iron Shoulders,Green Iron Shoulders
+1997,3505,Golden Scale Shoulders,Golden Scale Shoulders
+1998,3506,Green Iron Leggings,Green Iron Leggings
+1999,3507,Golden Scale Leggings,Golden Scale Leggings
+2000,3508,Green Iron Hauberk,Green Iron Hauberk
+2001,3511,Golden Scale Cuirass,Golden Scale Cuirass
+2002,3513,Polished Steel Boots,Polished Steel Boots
+2003,3515,Golden Scale Boots,Golden Scale Boots
+2005,3538,Blacksmithing,Blacksmithing
+2036,3564,Mining,Mining
+2037,3569,Smelt Steel,Smelt Steel
+2041,3570,Herb Gathering,Herb Gathering
+2161,3811,Leatherworking,Leatherworking
+2162,3753,Handstitched Leather Belt,Handstitched Leather Belt
+2164,3756,Embossed Leather Gloves,Embossed Leather Gloves
+2167,3759,Embossed Leather Pants,Embossed Leather Pants
+2168,3760,Hillman's Cloak,Hillman's Cloak
+2170,3761,Fine Leather Tunic,Fine Leather Tunic
+2171,3762,Hillman's Leather Vest,Hillman's Leather Vest
+2172,3763,Fine Leather Belt,Fine Leather Belt
+2173,3764,Hillman's Leather Gloves,Hillman's Leather Gloves
+2174,3765,Dark Leather Gloves,Dark Leather Gloves
+2175,3766,Dark Leather Belt,Dark Leather Belt
+2176,3767,Hillman's Belt,Hillman's Belt
+2177,3768,Hillman's Shoulders,Hillman's Shoulders
+2178,3769,Dark Leather Shoulders,Dark Leather Shoulders
+2179,3770,Toughened Leather Gloves,Toughened Leather Gloves
+2180,3771,Barbaric Gloves,Barbaric Gloves
+2181,3772,Green Leather Armor,Green Leather Armor
+2182,3773,Guardian Armor,Guardian Armor
+2183,3774,Green Leather Belt,Green Leather Belt
+2184,3775,Guardian Belt,Guardian Belt
+2185,3776,Green Leather Bracers,Green Leather Bracers
+2186,3777,Guardian Leather Bracers,Guardian Leather Bracers
+2187,3778,Gem-studded Leather Belt,Gem-studded Leather Belt
+2188,3779,Barbaric Belt,Barbaric Belt
+2195,3816,Cured Light Hide,Cured Light Hide
+2196,3817,Cured Medium Hide,Cured Medium Hide
+2197,3818,Cured Heavy Hide,Cured Heavy Hide
+2199,3780,Heavy Armor Kit,Heavy Armor Kit
+2356,3908,Tailoring,Tailoring
+2357,3909,Tailoring,Tailoring
+2358,3910,Tailoring,Tailoring
+2359,2963,Bolt of Linen Cloth,Bolt of Linen Cloth
+2360,2387,Linen Cloak,Linen Cloak
+2361,2385,Brown Linen Vest,Brown Linen Vest
+2362,2389,Red Linen Robe,Red Linen Robe
+2363,2386,Linen Boots,Linen Boots
+2364,2392,Red Linen Shirt,Red Linen Shirt
+2365,2393,White Linen Shirt,White Linen Shirt
+2366,2394,Blue Linen Shirt,Blue Linen Shirt
+2367,2397,Reinforced Linen Cape,Reinforced Linen Cape
+2368,2395,Barbaric Linen Vest,Barbaric Linen Vest
+2369,2396,Green Linen Shirt,Green Linen Shirt
+2370,2964,Bolt of Woolen Cloth,Bolt of Woolen Cloth
+2371,2402,Woolen Cape,Woolen Cape
+2372,2399,Green Woolen Vest,Green Woolen Vest
+2373,2401,Woolen Boots,Woolen Boots
+2374,2403,Gray Woolen Robe,Gray Woolen Robe
+2375,2406,Gray Woolen Shirt,Gray Woolen Shirt
+2376,3839,Bolt of Silk Cloth,Bolt of Silk Cloth
+2377,3865,Bolt of Mageweave,Bolt of Mageweave
+2378,3840,Heavy Linen Gloves,Heavy Linen Gloves
+2379,3841,Green Linen Bracers,Green Linen Bracers
+2380,3842,Handstitched Linen Britches,Handstitched Linen Britches
+2381,3843,Heavy Woolen Gloves,Heavy Woolen Gloves
+2382,3844,Heavy Woolen Cloak,Heavy Woolen Cloak
+2383,3845,Soft-soled Linen Boots,Soft-soled Linen Boots
+2384,3847,Red Woolen Boots,Red Woolen Boots
+2385,3848,Double-stitched Woolen Shoulders,Double-stitched Woolen Shoulders
+2386,3849,Reinforced Woolen Shoulders,Reinforced Woolen Shoulders
+2387,3850,Heavy Woolen Pants,Heavy Woolen Pants
+2388,3851,Phoenix Pants,Phoenix Pants
+2389,3852,Gloves of Meditation,Gloves of Meditation
+2390,3854,Azure Silk Gloves,Azure Silk Gloves
+2391,3855,Spidersilk Boots,Spidersilk Boots
+2392,3856,Spider Silk Slippers,Spider Silk Slippers
+2393,3857,Enchanter's Cowl,Enchanter's Cowl
+2394,3858,Shadow Hood,Shadow Hood
+2395,3859,Azure Silk Vest,Azure Silk Vest
+2396,3860,Boots of the Enchanter,Boots of the Enchanter
+2397,3861,Long Silken Cloak,Long Silken Cloak
+2398,3862,Icy Cloak,Icy Cloak
+2399,3863,Spider Belt,Spider Belt
+2400,3864,Star Belt,Star Belt
+2401,3866,Stylish Red Shirt,Stylish Red Shirt
+2402,3868,Phoenix Gloves,Phoenix Gloves
+2403,3869,Bright Yellow Shirt,Bright Yellow Shirt
+2404,3870,Dark Silk Shirt,Dark Silk Shirt
+2405,3871,Formal White Shirt,Formal White Shirt
+2406,3872,Rich Purple Silk Shirt,Rich Purple Silk Shirt
+2407,3873,Black Swashbuckler's Shirt,Black Swashbuckler's Shirt
+2408,3914,Brown Linen Pants,Brown Linen Pants
+2409,3915,Brown Linen Shirt,Brown Linen Shirt
+2413,3918,Rough Blasting Powder,Rough Blasting Powder
+2414,3919,Rough Dynamite,Rough Dynamite
+2417,3922,Handful of Copper Bolts,Handful of Copper Bolts
+2418,3923,Rough Copper Bomb,Rough Copper Bomb
+2420,3925,Rough Boomstick,Rough Boomstick
+2421,3977,Crude Scope,Crude Scope
+2422,3973,Silver Contact,Silver Contact
+2424,3928,Mechanical Squirrel Box,Mechanical Squirrel
+2425,3929,Coarse Blasting Powder,Coarse Blasting Powder
+2427,3931,Coarse Dynamite,Coarse Dynamite
+2428,3932,Target Dummy,Target Dummy
+2429,3933,Small Seaforium Charge,Small Seaforium Charge
+2430,3934,Flying Tiger Goggles,Flying Tiger Goggles
+2431,3936,Deadly Blunderbuss,Deadly Blunderbuss
+2432,3937,Large Copper Bomb,Large Copper Bomb
+2433,3938,Bronze Tube,Bronze Tube
+2435,3978,Standard Scope,Standard Scope
+2436,3939,Lovingly Crafted Boomstick,Lovingly Crafted Boomstick
+2437,3940,Shadow Goggles,Shadow Goggles
+2438,3941,Small Bronze Bomb,Small Bronze Bomb
+2439,3942,Whirring Bronze Gizmo,Whirring Bronze Gizmo
+2440,3944,Flame Deflector,Flame Deflector
+2441,3945,Heavy Blasting Powder,Heavy Blasting Powder
+2442,3946,Heavy Dynamite,Heavy Dynamite
+2444,3949,Silver-plated Shotgun,Silver-plated Shotgun
+2445,3950,Big Bronze Bomb,Big Bronze Bomb
+2446,3952,Minor Recombobulator,Minor Recombobulator
+2447,3953,Bronze Framework,Bronze Framework
+2448,3954,Moonsight Rifle,Moonsight Rifle
+2449,3955,Explosive Sheep,Explosive Sheep
+2450,3956,Green Tinted Goggles,Green Tinted Goggles
+2451,3957,Ice Deflector,Ice Deflector
+2452,3958,Iron Strut,Iron Strut
+2453,3959,Discombobulator Ray,Discombobulator Ray
+2454,3960,Portable Bronze Mortar,Portable Bronze Mortar
+2455,3961,Gyrochronatom,Gyrochronatom
+2456,3962,Iron Grenade,Iron Grenade
+2457,3963,Compact Harvest Reaper Kit,Compact Harvest Reaper Kit
+2459,3979,Accurate Scope,Accurate Scope
+2460,3965,Advanced Target Dummy,Advanced Target Dummy
+2461,3966,Craftsman's Monocle,Craftsman's Monocle
+2462,3967,Big Iron Bomb,Big Iron Bomb
+2463,3968,Goblin Land Mine,Goblin Land Mine
+2464,3969,Mechanical Dragonling,Mechanical Dragonling
+2465,3971,Gnomish Cloaking Device,Gnomish Cloaking Device
+2466,3972,Large Seaforium Charge,Large Seaforium Charge
+2487,3110,Firebolt,Firebolt
+2499,4094,Barbecued Buzzard Wing,Barbecued Buzzard Wing
+2500,4097,Raptor Hide Belt,Raptor Hide Belt
+2502,4096,Raptor Hide Harness,Raptor Hide Harness
+2907,4508,Discolored Healing Potion,Discolored Healing Potion
+2909,4942,Lesser Stoneshield Potion,Lesser Stoneshield Potion
+3213,197,Two-Handed Axes,Two-Handed Axes
+3214,199,Two-Handed Maces,Two-Handed Maces
+3324,2657,Smelt Copper,Smelt Copper
+3343,5244,Kodo Hide Bag,Kodo Hide Bag
+3909,6360,Whiplash,Soothing Kiss
+3926,6412,Kaldorei Spider Kabob,Kaldorei Spider Kabob
+3927,6413,Scorpid Surprise,Scorpid Surprise
+3928,6414,Roasted Kodo Meat,Roasted Kodo Meat
+3929,6415,Fillet of Frenzy,Fillet of Frenzy
+3930,6416,Strider Stew,Strider Stew
+3931,6417,Dig Rat Stew,Dig Rat Stew
+3932,6418,Crispy Lizard Tail,Crispy Lizard Tail
+3933,6419,Lean Venison,Lean Venison
+3945,6458,Ornate Spyglass,Ornate Spyglass
+3962,6501,Clam Chowder,Clam Chowder
+3963,6500,Goblin Deviled Clams,Goblin Deviled Clams
+3964,6499,Boiled Clams,Boiled Clams
+3971,6518,Iridescent Hammer,Iridescent Hammer
+3972,6517,Pearl-handled Dagger,Pearl-handled Dagger
+3973,6521,Pearl-clasped Cloak,Pearl-clasped Cloak
+3974,2671,Rough Bronze Bracers,Rough Bronze Bracers
+3975,2673,Silvered Bronze Breastplate,Silvered Bronze Breastplate
+3999,6603,Auto Attack,Attack
+4000,3758,Green Woolen Bag,Green Woolen Bag
+4001,3755,Linen Bag,Linen Bag
+4002,3757,Woolen Bag,Woolen Bag
+4003,3813,Small Silk Pack,Small Silk Pack
+4004,6624,Free Action Potion,Free Action Potion
+4006,6618,Great Rage Potion,Great Rage Potion
+4007,6617,Rage Potion,Rage Potion
+4010,6661,Barbaric Harness,Barbaric Harness
+4019,6686,Red Linen Bag,Red Linen Bag
+4020,6688,Red Woolen Bag,Red Woolen Bag
+4021,6690,Lesser Wizard's Robe,Lesser Wizard's Robe
+4022,6692,Robes of Arcana,Robes of Arcana
+4023,6693,Green Silk Pack,Green Silk Pack
+4024,6695,Black Silk Pack,Black Silk Pack
+4026,6702,Murloc Scale Belt,Murloc Scale Belt
+4027,6705,Murloc Scale Bracers,Murloc Scale Bracers
+4028,6703,Murloc Scale Breastplate,Murloc Scale Breastplate
+4029,6704,Thick Murloc Armor,Thick Murloc Armor
+4044,824,Horse Riding,Horse Riding
+4141,750,Plate Mail,Plate Mail
+4156,7126,Handstitched Leather Vest,Handstitched Leather Vest
+4158,7133,Fine Leather Pants,Fine Leather Pants
+4159,7135,Dark Leather Pants,Dark Leather Pants
+4160,7147,Guardian Pants,Guardian Pants
+4161,7149,Barbaric Leggings,Barbaric Leggings
+4163,7151,Barbaric Shoulders,Barbaric Shoulders
+4164,7153,Guardian Cloak,Guardian Cloak
+4165,7156,Guardian Gloves,Guardian Gloves
+4176,7179,Elixir of Water Breathing,Elixir of Water Breathing
+4177,7181,Greater Healing Potion,Greater Healing Potion
+4178,7183,Elixir of Minor Defense,Elixir of Minor Defense
+4204,7213,Giant Clam Scorcho,Giant Clam Scorcho
+4205,7224,Steel Weapon Chain,Steel Weapon Chain
+4206,7223,Golden Scale Bracers,Golden Scale Bracers
+4207,7221,Iron Shield Spike,Iron Shield Spike
+4208,7222,Iron Counterweight,Iron Counterweight
+4209,7257,Fire Protection Potion,Fire Protection Potion
+4210,7258,Frost Protection Potion,Frost Protection Potion
+4211,7255,Holy Protection Potion,Holy Protection Potion
+4212,7259,Nature Protection Potion,Nature Protection Potion
+4213,7256,Shadow Protection Potion,Shadow Protection Potion
+4285,7408,Heavy Copper Maul,Heavy Copper Maul
+4286,7411,Enchanting,Enchanting
+4287,7412,Enchanting,Enchanting
+4288,7413,Enchanting,Enchanting
+4289,7418,Minor Health,Enchant Bracer - Minor Health
+4290,7420,Minor Health,Enchant Chest - Minor Health
+4291,7421,Runed Copper Rod,Runed Copper Rod
+4292,7426,Minor Absorption,Enchant Chest - Minor Absorption
+4293,7428,Minor Dodge,Enchant Bracer - Minor Deflect
+4294,7430,Arclight Spanner,Arclight Spanner
+4297,7443,Minor Mana,Enchant Chest - Minor Mana
+4301,7457,Minor Stamina,Enchant Bracer - Minor Stamina
+4302,7623,Brown Linen Robe,Brown Linen Robe
+4303,7624,White Linen Robe,White Linen Robe
+4304,7630,Blue Linen Vest,Blue Linen Vest
+4305,7629,Red Linen Vest,Red Linen Vest
+4306,7633,Blue Linen Robe,Blue Linen Robe
+4307,7636,Green Woolen Robe,Green Woolen Robe
+4308,7639,Blue Overalls,Blue Overalls
+4311,7643,Greater Adept's Robe,Greater Adept's Robe
+4347,5227,Touch of the Grave,Underwater Breathing
+4348,7738,Fishing Poles,Fishing Poles
+4350,7744,Will of the Forsaken,Will of the Forsaken
+4352,7748,Lesser Health,Enchant Chest - Lesser Health
+4353,7751,Brilliant Smallfish,Brilliant Smallfish
+4354,7752,Slitherskin Mackerel,Slitherskin Mackerel
+4355,7753,Longjaw Mud Snapper,Longjaw Mud Snapper
+4356,7754,Loch Frenzy Delight,Loch Frenzy Delight
+4359,7755,Bristle Whisker Catfish,Bristle Whisker Catfish
+4360,7766,Minor Versatility,Enchant Bracer - Minor Spirit
+4362,7771,Minor Protection,Enchant Cloak - Minor Protection
+4363,7776,Lesser Mana,Enchant Chest - Lesser Mana
+4364,7779,Minor Agility,Enchant Bracer - Minor Agility
+4365,7782,Minor Strength,Enchant Bracer - Minor Strength
+4366,7786,Minor Beastslayer,Enchant Weapon - Minor Beastslayer
+4367,7788,Minor Striking,Enchant Weapon - Minor Striking
+4368,7745,Minor Impact,Enchant 2H Weapon - Minor Impact
+4369,7793,Lesser Intellect,Enchant 2H Weapon - Lesser Intellect
+4381,3716,Consuming Shadows,Torment
+4386,7814,Lash of Pain,Lash of Pain
+4389,7817,Rough Bronze Boots,Rough Bronze Boots
+4391,7827,Rainbow Fin Albacore,Rainbow Fin Albacore
+4392,7828,Rockscale Cod,Rockscale Cod
+4393,7836,Blackmouth Oil,Blackmouth Oil
+4394,7837,Fire Oil,Fire Oil
+4395,7841,Swim Speed Potion,Swim Speed Potion
+4396,7845,Elixir of Firepower,Elixir of Firepower
+4399,7857,Health,Enchant Chest - Health
+4400,7859,Lesser Versatility,Enchant Bracer - Lesser Spirit
+4402,7863,Minor Stamina,Enchant Boots - Minor Stamina
+4404,7867,Minor Agility,Enchant Boots - Minor Agility
+4406,7870,Lesser Invisibility,Lesser Invisibility
+4408,7892,Stylish Blue Shirt,Stylish Blue Shirt
+4409,7893,Stylish Green Shirt,Stylish Green Shirt
+4419,7955,Deviate Scale Belt,Deviate Scale Belt
+4420,7953,Deviate Scale Cloak,Deviate Scale Cloak
+4421,7954,Deviate Scale Gloves,Deviate Scale Gloves
+4569,8238,Savory Deviate Delight,Savory Deviate Delight
+4570,8240,Elixir of Giant Growth,Elixir of Giant Growth
+4571,8243,Flash Bomb,Flash Bomb
+4589,8322,Moonglow Vest,Moonglow Vest
+4606,8334,Clockwork Box,Practice Lock
+4607,8339,EZ-Thro Dynamite,EZ-Thro Dynamite
+4628,8366,Ironforge Chain,Ironforge Chain
+4629,8367,Ironforge Breastplate,Ironforge Breastplate
+4630,8368,Ironforge Gauntlets,Ironforge Gauntlets
+4682,8388,Find Minerals,Find Minerals
+4695,8386,Attacking,Attacking
+4708,8465,Simple Dress,Simple Dress
+4709,8467,White Woolen Dress,White Woolen Dress
+4714,8489,Red Swashbuckler's Shirt,Red Swashbuckler's Shirt
+4715,8483,White Swashbuckler's Shirt,White Swashbuckler's Shirt
+4786,8604,Herb Baked Egg,Herb Baked Egg
+4787,8607,Smoked Bear Meat,Smoked Bear Meat
+4847,8768,Iron Buckle,Iron Buckle
+4848,8776,Linen Belt,Linen Belt
+4849,8758,Azure Silk Pants,Azure Silk Pants
+4850,8760,Azure Silk Hood,Azure Silk Hood
+4851,8762,Silk Headband,Silk Headband
+4852,8764,Earthen Vest,Earthen Vest
+4853,8766,Azure Silk Belt,Azure Silk Belt
+4854,8770,Robe of Power,Robe of Power
+4855,8772,Crimson Silk Belt,Crimson Silk Belt
+4856,8774,Green Silken Shoulders,Green Silken Shoulders
+4857,8778,Boots of Darkness,Boots of Darkness
+4867,8780,Hands of Darkness,Hands of Darkness
+4868,8782,Truefaith Gloves,Truefaith Gloves
+4869,8784,Green Silk Armor,Green Silk Armor
+4870,8786,Azure Silk Cloak,Azure Silk Cloak
+4871,8789,Crimson Silk Cloak,Crimson Silk Cloak
+4872,8791,Crimson Silk Vest,Crimson Silk Vest
+4873,8793,Crimson Silk Shoulders,Crimson Silk Shoulders
+4874,8795,Azure Shoulders,Azure Shoulders
+4875,8797,Earthen Silk Belt,Earthen Silk Belt
+4876,8799,Crimson Silk Pantaloons,Crimson Silk Pantaloons
+4877,8802,Crimson Silk Robe,Crimson Silk Robe
+4878,8804,Crimson Silk Gloves,Crimson Silk Gloves
+4910,8880,Copper Dagger,Copper Dagger
+4927,8895,Goblin Rocket Boots,Goblin Rocket Boots
+4987,9058,Handstitched Leather Cloak,Handstitched Leather Cloak
+4988,9059,Handstitched Leather Bracers,Handstitched Leather Bracers
+4991,9064,Rugged Leather Pants,Rugged Leather Pants
+4992,9065,Light Leather Bracers,Light Leather Bracers
+4993,9068,Light Leather Pants,Light Leather Pants
+4994,9070,Black Whelp Cloak,Black Whelp Cloak
+4995,9072,Red Whelp Gloves,Red Whelp Gloves
+4996,9074,Nimble Leather Gloves,Nimble Leather Gloves
+5026,9145,Fletcher's Gloves,Fletcher's Gloves
+5027,9146,Herbalist's Gloves,Herbalist's Gloves
+5028,9147,Earthen Leather Shoulders,Earthen Leather Shoulders
+5029,9148,Pilferer's Gloves,Pilferer's Gloves
+5030,9149,Heavy Earthen Gloves,Heavy Earthen Gloves
+5049,9195,Dusky Leather Leggings,Dusky Leather Leggings
+5050,9196,Dusky Leather Armor,Dusky Leather Armor
+5051,9197,Green Whelp Armor,Green Whelp Armor
+5052,9198,Frost Leather Cloak,Frost Leather Cloak
+5053,9201,Dusky Bracers,Dusky Bracers
+5054,9202,Green Whelp Bracers,Green Whelp Bracers
+5055,9206,Dusky Belt,Dusky Belt
+5056,9207,Dusky Boots,Dusky Boots
+5057,9208,Swift Boots,Swift Boots
+5066,9269,Gnomish Universal Remote,Gnomish Universal Remote
+5067,9271,Aquadynamic Fish Attractor,Aquadynamic Fish Attractor
+5068,9273,Goblin Jumper Cables,Goblin Jumper Cables
+5149,9513,Thistle Tea,Thistle Tea
+5226,9785,Blacksmithing,Blacksmithing
+5306,9811,Barbaric Iron Shoulders,Barbaric Iron Shoulders
+5307,9813,Barbaric Iron Breastplate,Barbaric Iron Breastplate
+5308,9814,Barbaric Iron Helm,Barbaric Iron Helm
+5309,9818,Barbaric Iron Boots,Barbaric Iron Boots
+5310,9820,Barbaric Iron Gloves,Barbaric Iron Gloves
+5311,9916,Steel Breastplate,Steel Breastplate
+5312,9918,Solid Sharpening Stone,Solid Sharpening Stone
+5313,9921,Solid Weightstone,Solid Weightstone
+5314,9920,Solid Grinding Stone,Solid Grinding Stone
+5315,9926,Heavy Mithril Shoulder,Heavy Mithril Shoulder
+5316,9928,Heavy Mithril Gauntlet,Heavy Mithril Gauntlet
+5317,9931,Mithril Scale Pants,Mithril Scale Pants
+5318,9933,Heavy Mithril Pants,Heavy Mithril Pants
+5319,9935,Steel Plate Helm,Steel Plate Helm
+5320,9937,Mithril Scale Bracers,Mithril Scale Bracers
+5321,9939,Mithril Shield Spike,Mithril Shield Spike
+5322,9942,Mithril Scale Gloves,Mithril Scale Gloves
+5323,9945,Ornate Mithril Pants,Ornate Mithril Pants
+5324,9950,Ornate Mithril Gloves,Ornate Mithril Gloves
+5325,9952,Ornate Mithril Shoulder,Ornate Mithril Shoulders
+5326,9954,Truesilver Gauntlets,Truesilver Gauntlets
+5327,9957,Orcish War Leggings,Orcish War Leggings
+5328,9959,Heavy Mithril Breastplate,Heavy Mithril Breastplate
+5329,9961,Mithril Coif,Mithril Coif
+5330,9964,Mithril Spurs,Mithril Spurs
+5331,9966,Mithril Scale Shoulders,Mithril Scale Shoulders
+5332,9968,Heavy Mithril Boots,Heavy Mithril Boots
+5333,9970,Heavy Mithril Helm,Heavy Mithril Helm
+5334,9972,Ornate Mithril Breastplate,Ornate Mithril Breastplate
+5335,9974,Truesilver Breastplate,Truesilver Breastplate
+5336,9979,Ornate Mithril Boots,Ornate Mithril Boots
+5337,9980,Ornate Mithril Helm,Ornate Mithril Helm
+5338,9983,Copper Claymore,Copper Claymore
+5339,9985,Bronze Warhammer,Bronze Warhammer
+5340,9986,Bronze Greatsword,Bronze Greatsword
+5341,9987,Bronze Battle Axe,Bronze Battle Axe
+5342,9993,Heavy Mithril Axe,Heavy Mithril Axe
+5343,9995,Blue Glittering Axe,Blue Glittering Axe
+5344,9997,Wicked Mithril Blade,Wicked Mithril Blade
+5345,10001,Big Black Mace,Big Black Mace
+5346,10003,The Shatterer,The Shatterer
+5347,10005,Dazzling Mithril Rapier,Dazzling Mithril Rapier
+5348,10007,Phantom Blade,Phantom Blade
+5349,10009,Runed Mithril Hammer,Runed Mithril Hammer
+5350,10011,Blight,Blight
+5351,10013,Ebon Shiv,Ebon Shiv
+5352,10015,Truesilver Champion,Truesilver Champion
+5386,10098,Smelt Truesilver,Smelt Truesilver
+5387,10097,Smelt Mithril,Smelt Mithril
+5487,10248,Mining,Mining
+5666,10482,Cured Thick Hide,Cured Thick Hide
+5667,10487,Thick Armor Kit,Thick Armor Kit
+5668,10490,Comfortable Leather Hat,Comfortable Leather Hat
+5669,10499,Nightscape Tunic,Nightscape Tunic
+5670,10507,Nightscape Headband,Nightscape Headband
+5671,10509,Turtle Scale Gloves,Turtle Scale Gloves
+5672,10511,Turtle Scale Breastplate,Turtle Scale Breastplate
+5673,10516,Nightscape Shoulders,Nightscape Shoulders
+5674,10518,Turtle Scale Bracers,Turtle Scale Bracers
+5675,10520,Big Voodoo Robe,Big Voodoo Robe
+5676,10525,Tough Scorpid Breastplate,Tough Scorpid Breastplate
+5677,10529,Wild Leather Shoulders,Wild Leather Shoulders
+5678,10531,Big Voodoo Mask,Big Voodoo Mask
+5679,10533,Tough Scorpid Bracers,Tough Scorpid Bracers
+5680,10542,Tough Scorpid Gloves,Tough Scorpid Gloves
+5681,10544,Wild Leather Vest,Wild Leather Vest
+5682,10546,Wild Leather Helmet,Wild Leather Helmet
+5683,10619,Dragonscale Gauntlets,Dragonscale Gauntlets
+5684,10621,Wolfshead Helm,Wolfshead Helm
+5685,10548,Nightscape Pants,Nightscape Pants
+5686,10550,Nightscape Cloak,Nightscape Cloak
+5687,10552,Turtle Scale Helm,Turtle Scale Helm
+5688,10630,Gauntlets of the Sea,Gauntlets of the Sea
+5689,10554,Tough Scorpid Boots,Tough Scorpid Boots
+5690,10556,Turtle Scale Leggings,Turtle Scale Leggings
+5691,10558,Nightscape Boots,Nightscape Boots
+5692,10560,Big Voodoo Pants,Big Voodoo Pants
+5693,10562,Big Voodoo Cloak,Big Voodoo Cloak
+5694,10564,Tough Scorpid Shoulders,Tough Scorpid Shoulders
+5695,10566,Wild Leather Boots,Wild Leather Boots
+5696,10568,Tough Scorpid Leggings,Tough Scorpid Leggings
+5697,10570,Tough Scorpid Helm,Tough Scorpid Helm
+5698,10572,Wild Leather Leggings,Wild Leather Leggings
+5699,10574,Wild Leather Cloak,Wild Leather Cloak
+5700,10632,Helm of Fire,Helm of Fire
+5701,10647,Feathered Breastplate,Feathered Breastplate
+5702,10650,Dragonscale Breastplate,Dragonscale Breastplate
+5706,10662,Leatherworking,Leatherworking
+5746,10768,Skinning,Skinning
+5786,10861,Raptor Riding,Raptor Riding
+5806,10907,Mechanostrider Piloting,Mechanostrider Piloting
+5807,10906,Undead Horsemanship,Undead Horsemanship
+5997,11449,Elixir of Agility,Elixir of Agility
+5998,11450,Elixir of Greater Defense,Elixir of Greater Defense
+5999,11451,Oil of Immolation,Oil of Immolation
+6000,11448,Greater Mana Potion,Greater Mana Potion
+6001,11452,Restorative Potion,Restorative Potion
+6004,11456,Goblin Rocket Fuel,Goblin Rocket Fuel
+6005,11457,Superior Healing Potion,Superior Healing Potion
+6006,11458,Wildvine Potion,Wildvine Potion
+6007,11459,Philosopher's Stone,Philosophers' Stone
+6008,11460,Elixir of Detect Undead,Elixir of Detect Undead
+6009,11461,Arcane Elixir,Arcane Elixir
+6010,11464,Invisibility Potion,Invisibility Potion
+6011,11465,Elixir of Greater Intellect,Elixir of Greater Intellect
+6012,11466,Gift of Arthas,Gift of Arthas
+6013,11467,Elixir of Greater Agility,Elixir of Greater Agility
+6014,11468,Elixir of Dream Vision,Elixir of Dream Vision
+6015,11472,Elixir of Giants,Elixir of Giants
+6016,11473,Ghost Dye,Ghost Dye
+6017,11476,Elixir of Shadow Power,Elixir of Shadow Power
+6018,11477,Elixir of Demonslaying,Elixir of Demonslaying
+6019,11478,Elixir of Detect Demon,Elixir of Detect Demon
+6020,11479,Transmute: Iron to Gold,Transmute: Iron to Gold
+6021,11480,Transmute: Mithril to Truesilver,Transmute: Mithril to Truesilver
+6056,11611,Alchemy,Alchemy
+6136,11643,Golden Scale Gauntlets,Golden Scale Gauntlets
+6216,11993,Herb Gathering,Herb Gathering
+6576,12044,Simple Linen Pants,Simple Linen Pants
+6577,12045,Simple Linen Boots,Simple Linen Boots
+6578,12046,Simple Kilt,Simple Kilt
+6579,12047,Colorful Kilt,Colorful Kilt
+6580,12048,Black Mageweave Vest,Black Mageweave Vest
+6581,12049,Black Mageweave Leggings,Black Mageweave Leggings
+6582,12050,Black Mageweave Robe,Black Mageweave Robe
+6583,12052,Shadoweave Pants,Shadoweave Pants
+6584,12053,Black Mageweave Gloves,Black Mageweave Gloves
+6585,12055,Shadoweave Robe,Shadoweave Robe
+6586,12056,Red Mageweave Vest,Red Mageweave Vest
+6587,12059,White Bandit Mask,White Bandit Mask
+6588,12060,Red Mageweave Pants,Red Mageweave Pants
+6589,12061,Orange Mageweave Shirt,Orange Mageweave Shirt
+6590,12062,Stormcloth Pants,Stormcloth Pants
+6591,12063,Stormcloth Gloves,Stormcloth Gloves
+6592,12064,Orange Martial Shirt,Orange Martial Shirt
+6596,12065,Mageweave Bag,Mageweave Bag
+6597,12066,Red Mageweave Gloves,Red Mageweave Gloves
+6598,12067,Dreamweave Gloves,Dreamweave Gloves
+6599,12068,Stormcloth Vest,Stormcloth Vest
+6600,12069,Cindercloth Robe,Cindercloth Robe
+6601,12070,Dreamweave Vest,Dreamweave Vest
+6602,12071,Shadoweave Gloves,Shadoweave Gloves
+6603,12072,Black Mageweave Headband,Black Mageweave Headband
+6604,12073,Black Mageweave Boots,Black Mageweave Boots
+6605,12074,Black Mageweave Shoulders,Black Mageweave Shoulders
+6606,12075,Lavender Mageweave Shirt,Lavender Mageweave Shirt
+6607,12076,Shadoweave Shoulders,Shadoweave Shoulders
+6608,12077,Simple Black Dress,Simple Black Dress
+6609,12078,Red Mageweave Shoulders,Red Mageweave Shoulders
+6610,12079,Red Mageweave Bag,Red Mageweave Bag
+6611,12080,Pink Mageweave Shirt,Pink Mageweave Shirt
+6612,12081,Admiral's Hat,Admiral's Hat
+6613,12082,Shadoweave Boots,Shadoweave Boots
+6614,12083,Stormcloth Headband,Stormcloth Headband
+6615,12084,Red Mageweave Headband,Red Mageweave Headband
+6616,12085,Tuxedo Shirt,Tuxedo Shirt
+6617,12086,Shadoweave Mask,Shadoweave Mask
+6618,12087,Stormcloth Shoulders,Stormcloth Shoulders
+6619,12088,Cindercloth Boots,Cindercloth Boots
+6620,12089,Tuxedo Pants,Tuxedo Pants
+6621,12090,Stormcloth Boots,Stormcloth Boots
+6622,12091,White Wedding Dress,White Wedding Dress
+6623,12092,Dreamweave Circlet,Dreamweave Circlet
+6624,12093,Tuxedo Jacket,Tuxedo Jacket
+6625,12180,Tailoring,Tailoring
+6636,12260,Rough Copper Vest,Rough Copper Vest
+6637,12259,Silvered Bronze Leggings,Silvered Bronze Leggings
+6848,12609,Catseye Elixir,Catseye Elixir
+6857,12584,Gold Power Core,Gold Power Core
+6858,12585,Solid Blasting Powder,Solid Blasting Powder
+6859,12586,Solid Dynamite,Solid Dynamite
+6860,12587,Bright-Eye Goggles,Bright-Eye Goggles
+6861,12590,Gyromatic Micro-Adjustor,Gyromatic Micro-Adjustor
+6862,12589,Mithril Tube,Mithril Tube
+6863,12591,Unstable Trigger,Unstable Trigger
+6864,12594,Fire Goggles,Fire Goggles
+6865,12595,Mithril Blunderbuss,Mithril Blunderbuss
+6867,12597,Deadly Scope,Deadly Scope
+6868,12599,Mithril Casing,Mithril Casing
+6869,12603,Mithril Frag Bomb,Mithril Frag Bomb
+6870,12607,Catseye Ultra Goggles,Catseye Ultra Goggles
+6871,12614,Mithril Heavy-bore Rifle,Mithril Heavy-bore Rifle
+6872,12615,Spellpower Goggles Xtreme,Spellpower Goggles Xtreme
+6873,12616,Parachute Cloak,Parachute Cloak
+6874,12617,Deepdive Helmet,Deepdive Helmet
+6875,12618,Rose Colored Goggles,Rose Colored Goggles
+6876,12619,Hi-Explosive Bomb,Hi-Explosive Bomb
+6877,12620,Sniper Scope,Sniper Scope
+6879,12622,Green Lens,Green Lens
+6880,12624,Mithril Mechanical Dragonling,Mithril Mechanical Dragonling
+6938,12715,Goblin Rocket Fuel Recipe,Goblin Rocket Fuel Recipe
+6939,12716,Goblin Mortar,Goblin Mortar
+6940,12717,Goblin Mining Helmet,Goblin Mining Helmet
+6943,12718,Goblin Construction Helmet,Goblin Construction Helmet
+6944,12760,Goblin Sapper Charge,Goblin Sapper Charge
+6948,12755,Goblin Bomb Dispenser,Goblin Bomb Dispenser
+6949,12754,The Big One,The Big One
+6950,12759,Gnomish Death Ray,Gnomish Death Ray
+6951,12758,Goblin Rocket Helmet,Goblin Rocket Helmet
+7063,12895,Inlaid Mithril Cylinder Plans,Inlaid Mithril Cylinder Plans
+7064,12897,Gnomish Goggles,Gnomish Goggles
+7065,12899,Gnomish Shrink Ray,Gnomish Shrink Ray
+7066,12900,Mobile Alarm,Mobile Alarm
+7067,12902,Gnomish Net-o-Matic Projector,Gnomish Net-o-Matic Projector
+7068,12903,Gnomish Harm Prevention Belt,Gnomish Harm Prevention Belt
+7070,12905,Gnomish Rocket Boots,Gnomish Rocket Boots
+7071,12906,Gnomish Battle Chicken,Gnomish Battle Chicken
+7072,12907,Gnomish Mind Control Cap,Gnomish Mind Control Cap
+7073,12908,Goblin Dragon Gun,Goblin Dragon Gun
+7296,13240,The Mortar: Reloaded,The Mortar: Reloaded
+7356,13378,Minor Stamina,Enchant Shield - Minor Stamina
+7357,13380,Lesser Versatility,Enchant 2H Weapon - Lesser Spirit
+7376,13419,Minor Agility,Enchant Cloak - Minor Agility
+7377,13421,Lesser Protection,Enchant Cloak - Lesser Protection
+7416,13464,Lesser Protection,Enchant Shield - Lesser Protection
+7417,11454,Inlaid Mithril Cylinder,Inlaid Mithril Cylinder
+7422,13485,Lesser Versatility,Enchant Shield - Lesser Spirit
+7425,13501,Lesser Stamina,Enchant Bracer - Lesser Stamina
+7426,13503,Lesser Striking,Enchant Weapon - Lesser Striking
+7437,13529,Lesser Impact,Enchant 2H Weapon - Lesser Impact
+7456,13536,Lesser Strength,Enchant Bracer - Lesser Strength
+7457,13538,Lesser Absorption,Enchant Chest - Lesser Absorption
+7496,13607,Mana,Enchant Chest - Mana
+7497,13612,Mining,Enchant Gloves - Mining
+7498,13617,Herbalism,Enchant Gloves - Herbalism
+7499,13620,Fishing,Enchant Gloves - Fishing
+7500,13622,Lesser Intellect,Enchant Bracer - Lesser Intellect
+7501,13626,Minor Stats,Enchant Chest - Minor Stats
+7503,13631,Lesser Stamina,Enchant Shield - Lesser Stamina
+7504,13635,Defense,Enchant Cloak - Defense
+7505,13637,Lesser Agility,Enchant Boots - Lesser Agility
+7506,13640,Greater Health,Enchant Chest - Greater Health
+7507,13642,Versatility,Enchant Bracer - Spirit
+7508,13644,Lesser Stamina,Enchant Boots - Lesser Stamina
+7509,13646,Lesser Dodge,Enchant Bracer - Lesser Deflection
+7510,13648,Stamina,Enchant Bracer - Stamina
+7511,13653,Lesser Beastslayer,Enchant Weapon - Lesser Beastslayer
+7512,13655,Lesser Elemental Slayer,Enchant Weapon - Lesser Elemental Slayer
+7521,13659,Versatility,Enchant Shield - Spirit
+7522,13661,Strength,Enchant Bracer - Strength
+7523,13663,Greater Mana,Enchant Chest - Greater Mana
+7524,13687,Lesser Versatility,Enchant Boots - Lesser Spirit
+7528,13689,Lesser Parry,Enchant Shield - Lesser Block
+7529,13693,Striking,Enchant Weapon - Striking
+7530,13695,Impact,Enchant 2H Weapon - Impact
+7531,13698,Skinning,Enchant Gloves - Skinning
+7532,13700,Lesser Stats,Enchant Chest - Lesser Stats
+7656,13920,Enchanting,Enchanting
+7657,13746,Greater Defense,Enchant Cloak - Greater Defense
+7659,13815,Agility,Enchant Gloves - Agility
+7660,13817,Stamina,Enchant Shield - Stamina
+7661,13822,Intellect,Enchant Bracer - Intellect
+7662,13836,Stamina,Enchant Boots - Stamina
+7663,13841,Advanced Mining,Enchant Gloves - Advanced Mining
+7664,13846,Greater Versatility,Enchant Bracer - Greater Spirit
+7665,13858,Superior Health,Enchant Chest - Superior Health
+7666,13868,Advanced Herbalism,Enchant Gloves - Advanced Herbalism
+7667,13882,Lesser Agility,Enchant Cloak - Lesser Agility
+7668,13887,Strength,Enchant Gloves - Strength
+7669,13890,Minor Speed,Enchant Boots - Minor Speed
+7670,13898,Fiery Weapon,Enchant Weapon - Fiery Weapon
+7671,13905,Greater Versatility,Enchant Shield - Greater Spirit
+7672,13915,Demonslaying,Enchant Weapon - Demonslaying
+7673,13917,Superior Mana,Enchant Chest - Superior Mana
+7676,13931,Dodge,Enchant Bracer - Deflection
+7678,13935,Agility,Enchant Boots - Agility
+7679,13937,Greater Impact,Enchant 2H Weapon - Greater Impact
+7680,13939,Greater Strength,Enchant Bracer - Greater Strength
+7681,13941,Stats,Enchant Chest - Stats
+7682,13943,Greater Striking,Enchant Weapon - Greater Striking
+7683,13945,Greater Stamina,Enchant Bracer - Greater Stamina
+7684,13947,Riding Skill,Enchant Gloves - Riding Skill
+7685,13948,Minor Haste,Enchant Gloves - Minor Haste
+7999,14293,Lesser Magic Wand,Lesser Magic Wand
+8000,14807,Greater Magic Wand,Greater Magic Wand
+8001,14809,Lesser Mystic Wand,Lesser Mystic Wand
+8002,14810,Greater Mystic Wand,Greater Mystic Wand
+8016,14891,Smelt Dark Iron,Smelt Dark Iron
+8196,15255,Mechanical Repair Kit,Mechanical Repair Kit
+8216,15296,Dark Iron Plate,Dark Iron Plate
+8217,15293,Dark Iron Mail,Dark Iron Mail
+8218,15292,Dark Iron Pulverizer,Dark Iron Pulverizer
+8219,15294,Dark Iron Sunderer,Dark Iron Sunderer
+8220,15295,Dark Iron Shoulders,Dark Iron Shoulders
+8438,15590,Fist Weapons,Fist Weapons
+8440,15596,Smoking Heart of the Mountain,Smoking Heart of the Mountain
+8464,15633,Lil' Smoky,Lil' Smoky
+8465,15628,Pet Bombling,Pet Bombling
+8596,15833,Dreamless Sleep Potion,Dreamless Sleep Potion
+8616,15935,Crispy Bat Wing,Crispy Bat Wing
+8617,15853,Lean Wolf Steak,Lean Wolf Steak
+8618,15855,Roast Raptor,Roast Raptor
+8619,15856,Hot Wolf Ribs,Hot Wolf Ribs
+8620,15861,Jungle Stew,Jungle Stew
+8621,15863,Carrion Surprise,Carrion Surprise
+8622,15865,Mystery Stew,Mystery Stew
+8623,15906,Dragonbreath Chili,Dragonbreath Chili
+8624,15910,Heavy Kodo Stew,Heavy Kodo Stew
+8625,15915,Spiced Chili Crab,Spiced Chili Crab
+8626,15933,Monster Omelet,Monster Omelet
+8636,15972,Glinting Steel Dagger,Glinting Steel Dagger
+8637,15973,Searing Golden Blade,Searing Golden Blade
+8676,818,Cooking Fire,Basic Campfire
+8796,16153,Smelt Thorium,Smelt Thorium
+9156,16641,Dense Sharpening Stone,Dense Sharpening Stone
+9157,16640,Dense Weightstone,Dense Weightstone
+9158,16639,Dense Grinding Stone,Dense Grinding Stone
+9159,16642,Thorium Armor,Thorium Armor
+9160,16643,Thorium Belt,Thorium Belt
+9161,16644,Thorium Bracers,Thorium Bracers
+9162,16645,Radiant Belt,Radiant Belt
+9163,16646,Imperial Plate Shoulders,Imperial Plate Shoulders
+9164,16647,Imperial Plate Belt,Imperial Plate Belt
+9165,16648,Radiant Breastplate,Radiant Breastplate
+9166,16649,Imperial Plate Bracers,Imperial Plate Bracers
+9167,16650,Wildthorn Mail,Wildthorn Mail
+9168,16651,Thorium Shield Spike,Thorium Shield Spike
+9169,16652,Thorium Boots,Thorium Boots
+9170,16653,Thorium Helm,Thorium Helm
+9171,16654,Radiant Gloves,Radiant Gloves
+9172,16667,Demon Forged Breastplate,Demon Forged Breastplate
+9173,16656,Radiant Boots,Radiant Boots
+9174,16660,Dawnbringer Shoulders,Dawnbringer Shoulders
+9175,16655,Fiery Plate Gauntlets,Fiery Plate Gauntlets
+9176,16657,Imperial Plate Boots,Imperial Plate Boots
+9177,16658,Imperial Plate Helm,Imperial Plate Helm
+9179,16659,Radiant Circlet,Radiant Circlet
+9180,16662,Thorium Leggings,Thorium Leggings
+9181,16663,Imperial Plate Chest,Imperial Plate Chest
+9182,16664,Runic Plate Shoulders,Runic Plate Shoulders
+9183,16665,Runic Plate Boots,Runic Plate Boots
+9321,16724,Whitesoul Helm,Whitesoul Helm
+9322,16725,Radiant Leggings,Radiant Leggings
+9323,16726,Runic Plate Helm,Runic Plate Helm
+9324,16730,Imperial Plate Leggings,Imperial Plate Leggings
+9325,16728,Helm of the Great Chief,Helm of the Great Chief
+9331,16729,Lionheart Helm,Lionheart Helm
+9332,16731,Runic Breastplate,Runic Breastplate
+9333,16732,Runic Plate Leggings,Runic Plate Leggings
+9334,16741,Stronghold Gauntlets,Stronghold Gauntlets
+9335,16742,Enchanted Thorium Helm,Enchanted Thorium Helm
+9336,16744,Enchanted Thorium Leggings,Enchanted Thorium Leggings
+9337,16745,Enchanted Thorium Breastplate,Enchanted Thorium Breastplate
+9338,16746,Invulnerable Mail,Invulnerable Mail
+9436,16960,Thorium Greatsword,Thorium Greatsword
+9437,16965,Bleakwood Hew,Bleakwood Hew
+9438,16967,Inlaid Thorium Hammer,Inlaid Thorium Hammer
+9439,16969,Ornate Thorium Handaxe,Ornate Thorium Handaxe
+9440,16970,Dawn's Edge,Dawn's Edge
+9441,16971,Huge Thorium Battleaxe,Huge Thorium Battleaxe
+9442,16973,Enchanted Battlehammer,Enchanted Battlehammer
+9443,16978,Blazing Rapier,Blazing Rapier
+9444,16980,Rune Edge,Rune Edge
+9445,16983,Serenity,Serenity
+9446,16984,Volcanic Hammer,Volcanic Hammer
+9447,16985,Corruption,Corruption
+9448,16986,Blood Talon,Blood Talon
+9449,16987,Darkspear,Darkspear
+9450,16988,Hammer of the Titans,Hammer of the Titans
+9451,16990,Arcanite Champion,Arcanite Champion
+9452,16991,Annihilator,Annihilator
+9453,16992,Frostguard,Frostguard
+9454,16993,Masterwork Stormhammer,Masterwork Stormhammer
+9455,16994,Arcanite Reaper,Arcanite Reaper
+9456,16995,Heartseeker,Heartseeker
+9579,16661,Storm Gauntlets,Storm Gauntlets
+9597,17181,Enchanted Leather,Enchanted Leather
+9598,17180,Enchanted Thorium Bar,Enchanted Thorium
+9640,344348,Sonic Screech,Classic Spells - Classic World of Warcraft
+9840,17187,Transmute: Arcanite,Transmute: Arcanite
+9936,17551,Stonescale Oil,Stonescale Oil
+9937,17552,Mighty Rage Potion,Mighty Rage Potion
+9938,17553,Superior Mana Potion,Superior Mana Potion
+9939,17554,Elixir of Superior Defense,Elixir of Superior Defense
+9940,17555,Elixir of the Sages,Elixir of the Sages
+9941,17556,Major Healing Potion,Major Healing Potion
+9942,17557,Elixir of Brute Force,Elixir of Brute Force
+9943,17559,Transmute: Air to Fire,Transmute: Air to Fire
+9944,17561,Transmute: Earth to Water,Transmute: Earth to Water
+9945,17566,Transmute: Earth to Life,Transmute: Earth to Life
+9946,17560,Transmute: Fire to Earth,Transmute: Fire to Earth
+9947,17563,Transmute: Undeath to Water,Transmute: Undeath to Water
+9948,17562,Transmute: Water to Air,Transmute: Water to Air
+9949,17564,Transmute: Water to Undeath,Transmute: Water to Undeath
+9950,17565,Transmute: Life to Earth,Transmute: Life to Earth
+9951,17570,Greater Stoneshield Potion,Greater Stoneshield Potion
+9952,17571,Elixir of the Mongoose,Elixir of the Mongoose
+9953,17572,Purification Potion,Purification Potion
+9954,17573,Greater Arcane Elixir,Greater Arcane Elixir
+9955,17574,Greater Fire Protection Potion,Greater Fire Protection Potion
+9956,17575,Greater Frost Protection Potion,Greater Frost Protection Potion
+9957,17576,Greater Nature Protection Potion,Greater Nature Protection Potion
+9958,17577,Greater Arcane Protection Potion,Greater Arcane Protection Potion
+9959,17578,Greater Shadow Protection Potion,Greater Shadow Protection Potion
+9960,17579,Greater Holy Protection Potion,Greater Holy Protection Potion
+9961,17580,Major Mana Potion,Major Mana Potion
+9976,17632,Alchemist Stone,Alchemist's Stone
+9977,17634,Potion of Petrification,Flask of Petrification
+9978,17635,Flask of the Titans,Flask of the Titans
+9979,17636,Flask of Distilled Wisdom,Flask of Distilled Wisdom
+9980,17637,Flask of Supreme Power,Flask of Supreme Power
+10020,17735,Suffering,Suffering
+10021,17737,Language Gutterspeak,Language Gutterspeak
+10056,17767,Shadow Bulwark,Consume Shadows
+10242,18248,Fishing,Fishing
+10243,18239,Cooked Glossy Mightfish,Cooked Glossy Mightfish
+10244,18238,Spotted Yellowtail,Spotted Yellowtail
+10245,18241,Filet of Redgill,Filet of Redgill
+10246,18240,Grilled Squid,Grilled Squid
+10247,18242,Hot Smoked Bass,Hot Smoked Bass
+10248,18243,Nightfin Soup,Nightfin Soup
+10249,18244,Poached Sunscale Salmon,Poached Sunscale Salmon
+10250,18245,Lobster Stew,Lobster Stew
+10251,18246,Mightfish Steak,Mightfish Steak
+10252,18247,Baked Salmon,Baked Salmon
+10253,18260,Cooking,Cooking
+10396,18401,Bolt of Runecloth,Bolt of Runecloth
+10397,18402,Runecloth Belt,Runecloth Belt
+10398,18403,Frostweave Tunic,Frostweave Tunic
+10399,18404,Frostweave Robe,Frostweave Robe
+10400,18406,Runecloth Robe,Runecloth Robe
+10401,18405,Runecloth Bag,Runecloth Bag
+10402,18407,Runecloth Tunic,Runecloth Tunic
+10403,18408,Cindercloth Vest,Cindercloth Vest
+10404,18409,Runecloth Cloak,Runecloth Cloak
+10405,18410,Ghostweave Belt,Ghostweave Belt
+10406,18411,Frostweave Gloves,Frostweave Gloves
+10407,18412,Cindercloth Gloves,Cindercloth Gloves
+10408,18415,Brightcloth Gloves,Brightcloth Gloves
+10409,18413,Ghostweave Gloves,Ghostweave Gloves
+10410,18414,Brightcloth Robe,Brightcloth Robe
+10411,18416,Ghostweave Vest,Ghostweave Vest
+10412,18417,Runecloth Gloves,Runecloth Gloves
+10413,18418,Cindercloth Cloak,Cindercloth Cloak
+10416,18419,Felcloth Pants,Felcloth Pants
+10417,18420,Brightcloth Cloak,Brightcloth Cloak
+10418,18421,Wizardweave Leggings,Wizardweave Leggings
+10419,18422,Cloak of Fire,Cloak of Fire
+10420,18423,Runecloth Boots,Runecloth Boots
+10421,18424,Frostweave Pants,Frostweave Pants
+10422,18434,Cindercloth Pants,Cindercloth Pants
+10423,18436,Robe of Winter Night,Robe of Winter Night
+10424,18437,Felcloth Boots,Felcloth Boots
+10425,18438,Runecloth Pants,Runecloth Pants
+10426,18439,Brightcloth Pants,Brightcloth Pants
+10427,18440,Mooncloth Leggings,Mooncloth Leggings
+10428,18441,Ghostweave Pants,Ghostweave Pants
+10429,18442,Felcloth Hood,Felcloth Hood
+10430,18444,Runecloth Headband,Runecloth Headband
+10431,18445,Mooncloth Bag,Mooncloth Bag
+10432,18446,Wizardweave Robe,Wizardweave Robe
+10433,18447,Mooncloth Vest,Mooncloth Vest
+10434,18448,Mooncloth Shoulders,Mooncloth Shoulders
+10435,18449,Runecloth Shoulders,Runecloth Shoulders
+10436,18450,Wizardweave Turban,Wizardweave Turban
+10437,18451,Felcloth Robe,Felcloth Robe
+10438,18452,Mooncloth Circlet,Mooncloth Circlet
+10439,18453,Felcloth Shoulders,Felcloth Shoulders
+10440,18454,Gloves of Spell Mastery,Gloves of Spell Mastery
+10441,18455,Bottomless Bag,Bottomless Bag
+10442,18456,Truefaith Vestments,Truefaith Vestments
+10443,18457,Robe of the Archmage,Robe of the Archmage
+10444,18458,Robe of the Void,Robe of the Void
+10487,18560,Mooncloth,Mooncloth
+10716,18995,Kodo Riding,Kodo Riding
+10756,19047,Cured Rugged Hide,Cured Rugged Hide
+10757,19058,Rugged Armor Kit,Rugged Armor Kit
+10758,19048,Heavy Scorpid Bracers,Heavy Scorpid Bracers
+10759,19049,Wicked Leather Gauntlets,Wicked Leather Gauntlets
+10760,19050,Green Dragonscale Breastplate,Green Dragonscale Breastplate
+10761,19051,Heavy Scorpid Vest,Heavy Scorpid Vest
+10762,19052,Wicked Leather Bracers,Wicked Leather Bracers
+10763,19053,Chimeric Gloves,Chimeric Gloves
+10764,19054,Red Dragonscale Breastplate,Red Dragonscale Breastplate
+10765,19055,Runic Leather Gauntlets,Runic Leather Gauntlets
+10766,19059,Volcanic Leggings,Volcanic Leggings
+10767,19060,Green Dragonscale Leggings,Green Dragonscale Leggings
+10768,19061,Living Shoulders,Living Shoulders
+10769,19062,Ironfeather Shoulders,Ironfeather Shoulders
+10770,19063,Chimeric Boots,Chimeric Boots
+10771,19064,Heavy Scorpid Gauntlets,Heavy Scorpid Gauntlets
+10772,19065,Runic Leather Bracers,Runic Leather Bracers
+10773,19066,Frostsaber Boots,Frostsaber Boots
+10774,19067,Stormshroud Pants,Stormshroud Pants
+10775,19068,Warbear Harness,Warbear Harness
+10776,19070,Heavy Scorpid Belt,Heavy Scorpid Belt
+10777,19071,Wicked Leather Headband,Wicked Leather Headband
+10778,19072,Runic Leather Belt,Runic Leather Belt
+10779,19073,Chimeric Leggings,Chimeric Leggings
+10780,19074,Frostsaber Leggings,Frostsaber Leggings
+10781,19075,Heavy Scorpid Leggings,Heavy Scorpid Leggings
+10782,19076,Volcanic Breastplate,Volcanic Breastplate
+10783,19077,Blue Dragonscale Breastplate,Blue Dragonscale Breastplate
+10784,19078,Living Leggings,Living Leggings
+10785,19079,Stormshroud Armor,Stormshroud Armor
+10786,19080,Warbear Woolies,Warbear Woolies
+10787,19081,Chimeric Vest,Chimeric Vest
+10788,19085,Black Dragonscale Breastplate,Black Dragonscale Breastplate
+10789,19084,Devilsaur Gauntlets,Devilsaur Gauntlets
+10790,19086,Ironfeather Breastplate,Ironfeather Breastplate
+10791,19082,Runic Leather Headband,Runic Leather Headband
+10792,19083,Wicked Leather Pants,Wicked Leather Pants
+10793,19089,Blue Dragonscale Shoulders,Blue Dragonscale Shoulders
+10794,19087,Frostsaber Gloves,Frostsaber Gloves
+10795,19088,Heavy Scorpid Helm,Heavy Scorpid Helm
+10796,19090,Stormshroud Shoulders,Stormshroud Shoulders
+10797,19094,Black Dragonscale Shoulders,Black Dragonscale Shoulders
+10798,19097,Devilsaur Leggings,Devilsaur Leggings
+10799,19095,Living Breastplate,Living Breastplate
+10800,19093,Onyxia Scale Cloak,Onyxia Scale Cloak
+10801,19091,Runic Leather Pants,Runic Leather Pants
+10802,19092,Wicked Leather Belt,Wicked Leather Belt
+10804,19100,Heavy Scorpid Shoulders,Heavy Scorpid Shoulders
+10805,19102,Runic Leather Armor,Runic Leather Armor
+10806,19101,Volcanic Shoulders,Volcanic Shoulders
+10807,19098,Wicked Leather Armor,Wicked Leather Armor
+10808,19107,Black Dragonscale Leggings,Black Dragonscale Leggings
+10809,19104,Frostsaber Tunic,Frostsaber Tunic
+10811,19106,Onyxia Scale Breastplate,Onyxia Scale Breastplate
+10812,19103,Runic Leather Shoulders,Runic Leather Shoulders
+10957,19435,Mooncloth Boots,Mooncloth Boots
+11183,19666,Silver Skeleton Key,Silver Skeleton Key
+11184,19667,Golden Skeleton Key,Golden Skeleton Key
+11185,19668,Truesilver Skeleton Key,Truesilver Skeleton Key
+11186,19669,Arcanite Skeleton Key,Arcanite Skeleton Key
+11228,19788,Dense Blasting Powder,Dense Blasting Powder
+11229,19790,Thorium Grenade,Thorium Grenade
+11230,19792,Thorium Rifle,Thorium Rifle
+11231,19791,Thorium Widget,Thorium Widget
+11232,19793,Lifelike Mechanical Toad,Lifelike Mechanical Toad
+11233,19794,Spellpower Goggles Xtreme Plus,Spellpower Goggles Xtreme Plus
+11234,19796,Dark Iron Rifle,Dark Iron Rifle
+11235,19814,Masterwork Target Dummy,Masterwork Target Dummy
+11236,19795,Thorium Tube,Thorium Tube
+11237,19815,Delicate Arcanite Converter,Delicate Arcanite Converter
+11238,19799,Dark Iron Bomb,Dark Iron Bomb
+11240,19819,Voice Amplification Modulator,Voice Amplification Modulator
+11241,19831,Arcane Bomb,Arcane Bomb
+11242,19830,Arcanite Dragonling,Arcanite Dragonling
+11243,19825,Master Engineer's Goggles,Master Engineer's Goggles
+11244,19833,Flawless Arcanite Rifle,Flawless Arcanite Rifle
+11316,3175,Limited Invulnerability Potion,Limited Invulnerability Potion
+11373,20008,Greater Intellect,Enchant Bracer - Greater Intellect
+11374,20020,Greater Stamina,Enchant Boots - Greater Stamina
+11376,20017,Greater Stamina,Enchant Shield - Greater Stamina
+11377,20009,Superior Versatility,Enchant Bracer - Superior Spirit
+11378,20012,Greater Agility,Enchant Gloves - Greater Agility
+11379,20024,Versatility,Enchant Boots - Spirit
+11380,20026,Major Health,Enchant Chest - Major Health
+11381,20016,Vitality,Enchant Shield - Superior Spirit
+11382,20029,Icy Chill,Enchant Weapon - Icy Chill
+11383,20015,Superior Defense,Enchant Cloak - Superior Defense
+11384,20028,Major Mana,Enchant Chest - Major Mana
+11386,20013,Greater Strength,Enchant Gloves - Greater Strength
+11387,20023,Greater Agility,Enchant Boots - Greater Agility
+11388,20010,Superior Strength,Enchant Bracer - Superior Strength
+11389,20030,Superior Impact,Enchant 2H Weapon - Superior Impact
+11390,20033,Unholy Weapon,Enchant Weapon - Unholy Weapon
+11391,20036,Major Intellect,Enchant 2H Weapon - Major Intellect
+11392,20031,Superior Striking,Enchant Weapon - Superior Striking
+11393,20011,Superior Stamina,Enchant Bracer - Superior Stamina
+11394,20034,Crusader,Enchant Weapon - Crusader
+11395,20025,Greater Stats,Enchant Chest - Greater Stats
+11396,20032,Lifestealing,Enchant Weapon - Lifestealing
+11397,20035,Major Versatility,Enchant 2H Weapon - Major Spirit
+11491,20222,Goblin Engineer,Goblin Engineer
+11492,20219,Gnomish Engineer,Gnomish Engineer
+11696,20549,War Stomp,War Stomp
+11697,20550,Endurance,Endurance
+11698,20551,Nature Resistance,Nature Resistance
+11699,20552,Cultivation,Cultivation
+11701,20555,Regeneration,Regeneration
+11703,20557,Beast Slaying,Beast Slaying
+11708,20572,Blood Fury,Blood Fury
+11709,20573,Hardiness,Hardiness
+11713,20577,Cannibalize,Cannibalize
+11714,20579,Shadow Resistance,Shadow Resistance
+11717,20583,Nature Resistance,Nature Resistance
+11718,20582,Quickness,Quickness
+11719,20585,Wisp Spirit,Wisp Spirit
+11720,20589,Escape Artist,Escape Artist
+11721,20591,Expansive Mind,Expansive Mind
+11722,20593,Engineering Specialization,Engineering Specialization
+11723,20592,Arcane Resistance,Arcane Resistance
+11725,20596,Frost Resistance,Frost Resistance
+11727,20594,Stoneform,Stoneform
+11728,458619,No Place Like Home,Classic Spells - Classic World of Warcraft
+11731,20598,The Human Spirit,The Human Spirit
+11740,20626,Undermine Clam Chowder,Undermine Clam Chowder
+11756,20648,Medium Leather,Medium Leather
+11757,20649,Heavy Leather,Heavy Leather
+11758,20650,Thick Leather,Thick Leather
+11856,20848,Flarecore Mantle,Flarecore Mantle
+11857,20849,Flarecore Gloves,Flarecore Gloves
+11858,20853,Corehound Boots,Corehound Boots
+11859,20854,Molten Helm,Molten Helm
+11860,20855,Black Dragonscale Boots,Black Dragonscale Boots
+11862,20874,Dark Iron Bracers,Dark Iron Bracers
+11863,20872,Fiery Chain Girdle,Fiery Chain Girdle
+11864,20876,Dark Iron Leggings,Dark Iron Leggings
+11865,20873,Fiery Chain Shoulders,Fiery Chain Shoulders
+11866,20897,Dark Iron Destroyer,Dark Iron Destroyer
+11867,20890,Dark Iron Reaver,Dark Iron Reaver
+11873,20916,Mithril Head Trout,Mithril Headed Trout
+11976,21144,Winter Veil Egg Nog,Egg Nog
+11977,21143,Gingerbread Cookie,Gingerbread Cookie
+11979,21161,Sulfuron Hammer,Sulfuron Hammer
+11997,21175,Spider Sausage,Spider Sausage
+12136,21913,Edge of Winter,Edge of Winter
+12137,21923,Elixir of Frost Power,Elixir of Frost Power
+12138,21931,Winter's Might,Enchant Weapon - Winter's Might
+12139,21940,Snowmaster 9000,SnowMaster 9000
+12140,21943,Gloves of the Greatfather,Gloves of the Greatfather
+12141,21945,Green Holiday Shirt,Green Holiday Shirt
+12156,22027,Remove Insignia,Remove Insignia
+12196,22331,Rugged Leather,Rugged Leather
+12236,22480,Tender Wolf Steak,Tender Wolf Steak
+12296,22704,Field Repair Bot 74A,Field Repair Bot 74A
+12297,22711,Shadowskin Gloves,Shadowskin Gloves
+12298,22727,Core Armor Kit,Core Armor Kit
+12299,22732,Major Rejuvenation Potion,Major Rejuvenation Potion
+12300,22749,Spellpower,Enchant Weapon - Spell Power
+12301,22750,Healing Power,Enchant Weapon - Healing Power
+12302,22757,Elemental Sharpening Stone,Elemental Sharpening Stone
+12303,22759,Flarecore Wraps,Flarecore Wraps
+12304,22761,Runn Tum Tuber Surprise,Runn Tum Tuber Surprise
+12319,22793,Biznicks 247x128 Accurascope,Biznicks 247x128 Accurascope
+12320,22795,Core Marksman Rifle,Core Marksman Rifle
+12321,22797,Force Reactive Disk,Force Reactive Disk
+12322,22808,Elixir of Greater Water Breathing,Elixir of Greater Water Breathing
+12323,22810,Opening - No Text,Opening - No Text
+12325,22813,Gordok Ogre Suit,Gordok Ogre Suit
+12326,22815,Gordok Ogre Suit,Gordok Ogre Suit
+12340,22866,Belt of the Archmage,Belt of the Archmage
+12341,22867,Felcloth Gloves,Felcloth Gloves
+12342,22868,Inferno Gloves,Inferno Gloves
+12343,22869,Mooncloth Gloves,Mooncloth Gloves
+12344,22870,Cloak of Warding,Cloak of Warding
+12349,22902,Mooncloth Robe,Mooncloth Robe
+12351,22921,Girdle of Insight,Girdle of Insight
+12352,22922,Mongoose Boots,Mongoose Boots
+12353,22923,Swift Flight Bracers,Swift Flight Bracers
+12354,22926,Chromatic Cloak,Chromatic Cloak
+12355,22927,Hide of the Wild,Hide of the Wild
+12356,22928,Shifting Cloak,Shifting Cloak
+12420,23066,Red Firework,Red Firework
+12421,23068,Green Firework,Green Firework
+12422,23067,Blue Firework,Blue Firework
+12423,23069,EZ-Thro Dynamite II,EZ-Thro Dynamite II
+12424,23070,Dense Dynamite,Dense Dynamite
+12425,23071,Truesilver Transformer,Truesilver Transformer
+12426,23077,Gyrofreeze Ice Reflector,Gyrofreeze Ice Reflector
+12427,23078,Goblin Jumper Cables XL,Goblin Jumper Cables XL
+12428,23079,Major Recombobulator,Major Recombobulator
+12429,23080,Powerful Seaforium Charge,Powerful Seaforium Charge
+12430,23081,Hyper-Radiant Flame Reflector,Hyper-Radiant Flame Reflector
+12431,23082,Ultra-Flash Shadow Reflector,Ultra-Flash Shadow Reflector
+12432,23096,Gnomish Alarm-o-Bot,Alarm-O-Bot
+12451,23129,World Enlarger,World Enlarger
+12516,23190,Heavy Leather Ball,Heavy Leather Ball
+12559,23399,Barbaric Bracers,Barbaric Bracers
+12617,23489,Ultrasafe Transporter - Gadgetzan,Ultrasafe Transporter - Gadgetzan
+12618,23486,Dimensional Ripper - Everlook,Dimensional Ripper - Everlook
+12636,23507,Snake Burst Firework,Snake Burst Firework
+12677,23628,Heavy Timbermaw Belt,Heavy Timbermaw Belt
+12678,23629,Heavy Timbermaw Boots,Heavy Timbermaw Boots
+12679,23632,Girdle of the Dawn,Girdle of the Dawn
+12680,23633,Gloves of the Dawn,Gloves of the Dawn
+12681,23636,Dark Iron Helm,Dark Iron Helm
+12682,23637,Dark Iron Gauntlets,Dark Iron Gauntlets
+12683,23638,Black Amnesty,Black Amnesty
+12684,23639,Blackfury,Blackfury
+12685,23650,Ebon Hand,Ebon Hand
+12686,23652,Blackguard,Blackguard
+12687,23653,Nightfall,Nightfall
+12688,23662,Wisdom of the Timbermaw,Wisdom of the Timbermaw
+12689,23664,Argent Boots,Argent Boots
+12690,23663,Mantle of the Timbermaw,Mantle of the Timbermaw
+12691,23665,Argent Shoulders,Argent Shoulders
+12692,23666,Flarecore Robe,Flarecore Robe
+12693,23667,Flarecore Leggings,Flarecore Leggings
+12696,23703,Might of the Timbermaw,Might of the Timbermaw
+12697,23705,Dawn Treaders,Dawn Treaders
+12698,23704,Timbermaw Brawlers,Timbermaw Brawlers
+12699,23706,Golden Mantle of the Dawn,Golden Mantle of the Dawn
+12700,23707,Lava Belt,Lava Belt
+12701,23708,Chromatic Gauntlets,Chromatic Gauntlets
+12702,23709,Corehound Belt,Corehound Belt
+12703,23710,Molten Belt,Molten Belt
+12717,23799,Strength,Enchant Weapon - Strength
+12718,23800,Agility,Enchant Weapon - Agility
+12719,23801,Argent Versatility,Enchant Bracer - Mana Regeneration
+12720,23802,Healing Power,Enchant Bracer - Healing Power
+12721,23803,Mighty Versatility,Enchant Weapon - Mighty Spirit
+12722,23804,Mighty Intellect,Enchant Weapon - Mighty Intellect
+12816,24093,Bloodvine Boots,Bloodvine Boots
+12817,24092,Bloodvine Leggings,Bloodvine Leggings
+12818,24091,Bloodvine Vest,Bloodvine Vest
+12819,24124,Blood Tiger Breastplate,Blood Tiger Breastplate
+12820,24125,Blood Tiger Shoulders,Blood Tiger Shoulders
+12821,24123,Primal Batskin Bracers,Primal Batskin Bracers
+12822,24122,Primal Batskin Gloves,Primal Batskin Gloves
+12823,24121,Primal Batskin Jerkin,Primal Batskin Jerkin
+12829,24136,Bloodsoul Breastplate,Bloodsoul Breastplate
+12830,24138,Bloodsoul Gauntlets,Bloodsoul Gauntlets
+12831,24137,Bloodsoul Shoulders,Bloodsoul Shoulders
+12832,24139,Darksoul Breastplate,Darksoul Breastplate
+12833,24140,Darksoul Leggings,Darksoul Leggings
+12834,24141,Darksoul Shoulders,Darksoul Shoulders
+12876,24266,Gurubashi Mojo Madness,Gurubashi Mojo Madness
+12890,24356,Bloodvine Goggles,Bloodvine Goggles
+12891,24357,Bloodvine Lens,Bloodvine Lens
+12892,24365,Mageblood Elixir,Mageblood Potion
+12893,24366,Greater Dreamless Sleep Potion,Greater Dreamless Sleep Potion
+12894,24367,Living Action Potion,Living Action Potion
+12895,24368,Mighty Troll's Blood Elixir,Major Troll's Blood Potion
+12898,24394,Intimidation,Intimidation
+12899,19577,Intimidation,Intimidation
+12901,24399,Dark Iron Boots,Dark Iron Boots
+12905,24418,Heavy Crocolisk Stew,Heavy Crocolisk Stew
+13042,24655,Green Dragonscale Gauntlets,Green Dragonscale Gauntlets
+13043,24654,Blue Dragonscale Leggings,Blue Dragonscale Leggings
+13056,24801,Smoked Desert Dumplings,Smoked Desert Dumplings
+13062,24846,Spitfire Bracers,Spitfire Bracers
+13063,24847,Spitfire Gauntlets,Spitfire Gauntlets
+13064,24848,Spitfire Breastplate,Spitfire Breastplate
+13065,24849,Sandstalker Bracers,Sandstalker Bracers
+13066,24850,Sandstalker Gauntlets,Sandstalker Gauntlets
+13067,24851,Sandstalker Breastplate,Sandstalker Breastplate
+13073,24902,Runed Stygian Belt,Runed Stygian Belt
+13074,24903,Runed Stygian Boots,Runed Stygian Boots
+13075,24901,Runed Stygian Leggings,Runed Stygian Leggings
+13079,24914,Darkrune Breastplate,Darkrune Breastplate
+13080,24912,Darkrune Gauntlets,Darkrune Gauntlets
+13081,24913,Darkrune Helm,Darkrune Helm
+13087,24940,Black Whelp Tunic,Black Whelp Tunic
+13103,24703,Dreamscale Breastplate,Dreamscale Breastplate
+13121,25072,Threat,Enchant Gloves - Threat
+13122,25073,Shadow Power,Enchant Gloves - Shadow Power
+13123,25074,Frost Power,Enchant Gloves - Frost Power
+13124,25078,Fire Power,Enchant Gloves - Fire Power
+13125,25079,Healing Power,Enchant Gloves - Healing Power
+13126,25080,Superior Agility,Enchant Gloves - Superior Agility
+13129,25083,Stealth,Enchant Cloak - Stealth
+13130,25084,Subtlety,Enchant Cloak - Subtlety
+13131,25086,Dodge,Enchant Cloak - Dodge
+13137,25124,Minor Wizard Oil,Minor Wizard Oil
+13138,25125,Minor Mana Oil,Minor Mana Oil
+13139,25126,Lesser Wizard Oil,Lesser Wizard Oil
+13140,25127,Lesser Mana Oil,Lesser Mana Oil
+13141,25128,Wizard Oil,Wizard Oil
+13142,25129,Brilliant Wizard Oil,Brilliant Wizard Oil
+13143,25130,Brilliant Mana Oil,Brilliant Mana Oil
+13146,25146,Transmute: Elemental Fire,Transmute: Elemental Fire
+13166,25229,Jewelcrafting,Classic Spells - Classic World of Warcraft
+13167,25230,Jewelcrafting,Classic Spells - Classic World of Warcraft
+13196,25278,Bronze Setting,Classic Spells - Classic World of Warcraft
+13198,25255,Delicate Copper Wire,Classic Spells - Classic World of Warcraft
+13199,25280,Elegant Silver Ring,Classic Spells - Classic World of Warcraft
+13200,25283,Inlaid Malachite Ring,Classic Spells - Classic World of Warcraft
+13201,25284,Simple Pearl Ring,Classic Spells - Classic World of Warcraft
+13203,25287,Gloom Band,Classic Spells - Classic World of Warcraft
+13205,25305,Heavy Silver Ring,Classic Spells - Classic World of Warcraft
+13206,25317,Ring of Silver Might,Classic Spells - Classic World of Warcraft
+13207,25318,Ring of Twilight Shadows,Classic Spells - Classic World of Warcraft
+13209,25339,Amulet of the Moon,Classic Spells - Classic World of Warcraft
+13210,25320,Heavy Golden Necklace of Battle,Classic Spells - Classic World of Warcraft
+13211,25321,Moonsoul Crown,Classic Spells - Classic World of Warcraft
+13212,25323,Wicked Moonstone Ring,Classic Spells - Classic World of Warcraft
+13290,25493,Braided Copper Ring,Classic Spells - Classic World of Warcraft
+13291,25490,Solid Bronze Ring,Classic Spells - Classic World of Warcraft
+13292,25498,Barbaric Iron Collar,Classic Spells - Classic World of Warcraft
+13323,25610,Pendant of the Agate Shield,Classic Spells - Classic World of Warcraft
+13325,25612,Heavy Iron Knuckles,Classic Spells - Classic World of Warcraft
+13326,25613,Golden Dragon Ring,Classic Spells - Classic World of Warcraft
+13327,25614,Silver Rose Pendant,Classic Spells - Classic World of Warcraft
+13328,25615,Mithril Filigree,Classic Spells - Classic World of Warcraft
+13330,25617,Blazing Citrine Ring,Classic Spells - Classic World of Warcraft
+13331,25618,Jade Pendant of Blasting,Classic Spells - Classic World of Warcraft
+13332,25619,The Jade Eye,Classic Spells - Classic World of Warcraft
+13333,25620,Engraved Truesilver Ring,Classic Spells - Classic World of Warcraft
+13334,25621,Citrine Ring of Rapid Healing,Classic Spells - Classic World of Warcraft
+13335,25622,Citrine Pendant of Golden Healing,Classic Spells - Classic World of Warcraft
+13338,25046,Arcane Torrent,Classic Spells - Classic World of Warcraft
+13343,25659,Dirge's Kickin' Chimaerok Chops,Dirge's Kickin' Chimaerok Chops
+13344,25704,Smoked Sagefish,Smoked Sagefish
+13375,25954,Sagefish Delight,Sagefish Delight
+13381,26011,Tranquil Mechanical Yeti,Tranquil Mechanical Yeti
+13392,26064,Shell Shield,Shell Shield
+13397,26085,Soul Pouch,Soul Pouch
+13398,26086,Felcloth Bag,Felcloth Bag
+13399,26087,Core Felcloth Bag,Core Felcloth Bag
+13416,26279,Stormshroud Gloves,Stormshroud Gloves
+13417,26277,Elixir of Greater Firepower,Elixir of Greater Firepower
+13419,26297,Berserking,Berserking
+13422,26403,Festival Dress,Festive Red Dress
+13423,26407,Festival Suit,Festive Red Pant Suit
+13424,26416,Small Blue Rocket,Small Blue Rocket
+13425,26417,Small Green Rocket,Small Green Rocket
+13426,26418,Small Red Rocket,Small Red Rocket
+13427,26420,Large Blue Rocket,Large Blue Rocket
+13428,26421,Large Green Rocket,Large Green Rocket
+13429,26422,Large Red Rocket,Large Red Rocket
+13430,26423,Blue Rocket Cluster,Blue Rocket Cluster
+13431,26424,Green Rocket Cluster,Green Rocket Cluster
+13432,26425,Red Rocket Cluster,Red Rocket Cluster
+13433,26426,Large Blue Rocket Cluster,Large Blue Rocket Cluster
+13434,26427,Large Green Rocket Cluster,Large Green Rocket Cluster
+13435,26428,Large Red Rocket Cluster,Large Red Rocket Cluster
+13436,26442,Firework Launcher,Firework Launcher
+13437,26443,Cluster Launcher,Firework Cluster Launcher
