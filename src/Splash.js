@@ -1,23 +1,19 @@
 import React, { useState, useEffect, useMemo } from "react";
 import "./style.css";
 import logo from "./enchant_icon.webp";
-import recipeList from "./recipe_list.json";
-
-const API_KEY = process.env.REACT_APP_BLIZZARD_API_KEY;
+import db from "./db.json";
 
 function Splash() {
   const [searchTerm, setSearchTerm] = useState("");
   const [suggestions, setSuggestions] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
   const [pinnedRecipes, setPinnedRecipes] = useState([]);
   const [currentRecipe, setCurrentRecipe] = useState(null);
   const [craftMultiplier, setCraftMultiplier] = useState(1);
 
   useEffect(() => {
     if (searchTerm.length > 1) {
-      const matchedRecipes = recipeList
+      const matchedRecipes = db
         .filter(recipe => 
-          recipe.WowheadName && typeof recipe.WowheadName === 'string' &&
           recipe.WowheadName.toLowerCase().includes(searchTerm.toLowerCase())
         )
         .slice(0, 10);
@@ -27,41 +23,15 @@ function Splash() {
     }
   }, [searchTerm]);
 
-  async function searchRecipe(recipeId) {
-    setIsLoading(true);
-    try {
-      const [recipeResponse, mediaResponse] = await Promise.all([
-        fetch(`https://us.api.blizzard.com/data/wow/recipe/${recipeId}?namespace=static-us&locale=en_US&access_token=${API_KEY}`),
-        fetch(`https://us.api.blizzard.com/data/wow/media/recipe/${recipeId}?namespace=static-us&locale=en_US&access_token=${API_KEY}`)
-      ]);
-
-      const recipeData = await recipeResponse.json();
-      const mediaData = await mediaResponse.json();
-
-      const itemName = recipeData.name;
-      const iconUrl = mediaData.assets[0].value;
-
-      const matchedRecipe = recipeList.find(recipe => recipe.RecipeID === recipeId);
-      const spellId = matchedRecipe ? matchedRecipe.SpellID : recipeId;
-
-      const reagentsWithIcons = await Promise.all(recipeData.reagents.map(async (reagent) => {
-        const reagentMediaResponse = await fetch(`https://us.api.blizzard.com/data/wow/media/item/${reagent.reagent.id}?namespace=static-us&locale=en_US&access_token=${API_KEY}`);
-        const reagentMediaData = await reagentMediaResponse.json();
-        return {
-          name: reagent.reagent.name,
-          quantity: reagent.quantity,
-          iconUrl: reagentMediaData.assets[0].value
-        };
-      }));
-
-      setCurrentRecipe({ itemName, reagents: reagentsWithIcons, spellId, iconUrl });
+  function searchRecipe(recipeId) {
+    const recipe = db.find(r => r.RecipeID === recipeId);
+    if (recipe) {
+      setCurrentRecipe(recipe);
       setCraftMultiplier(1);
       setSuggestions([]);
-    } catch (error) {
-      console.error("Error fetching recipe:", error);
+    } else {
+      console.error("Recipe not found:", recipeId);
       setCurrentRecipe(null);
-    } finally {
-      setIsLoading(false);
     }
   }
 
@@ -72,7 +42,7 @@ function Splash() {
         multiplier: craftMultiplier,
         reagents: currentRecipe.reagents.map(reagent => ({
           ...reagent,
-          quantity: reagent.quantity * craftMultiplier
+          amount: reagent.amount * craftMultiplier
         }))
       };
       setPinnedRecipes([...pinnedRecipes, newPinnedRecipe]);
@@ -87,7 +57,7 @@ function Splash() {
           multiplier: newMultiplier,
           reagents: recipe.reagents.map(reagent => ({
             ...reagent,
-            quantity: (reagent.quantity / recipe.multiplier) * newMultiplier
+            amount: (reagent.amount / recipe.multiplier) * newMultiplier
           }))
         };
       }
@@ -101,15 +71,14 @@ function Splash() {
     setPinnedRecipes(updatedPinnedRecipes);
   }
 
-  // Add this new function to calculate the shopping list
   const shoppingList = useMemo(() => {
     const list = {};
     pinnedRecipes.forEach(recipe => {
       recipe.reagents.forEach(reagent => {
-        if (list[reagent.name]) {
-          list[reagent.name].quantity += reagent.quantity;
+        if (list[reagent.reagentName]) {
+          list[reagent.reagentName].amount += reagent.amount;
         } else {
-          list[reagent.name] = { ...reagent };
+          list[reagent.reagentName] = { ...reagent };
         }
       });
     });
@@ -149,10 +118,9 @@ function Splash() {
       {currentRecipe && (
         <div className="results-container">
           <div className="recipe-header">
-            <img src={currentRecipe.iconUrl} alt={currentRecipe.itemName} className="recipe-icon" />
             <h2>
-              <a href={`https://www.wowhead.com/classic/spell=${currentRecipe.spellId}`} target="_blank" rel="noopener noreferrer">
-                {currentRecipe.itemName}
+              <a href={`https://www.wowhead.com/classic/spell=${currentRecipe.SpellID}`} target="_blank" rel="noopener noreferrer">
+                {currentRecipe.WowheadName}
               </a>
             </h2>
             <button onClick={pinRecipe} className="pin-recipe-btn">Pin this recipe</button>
@@ -173,9 +141,8 @@ function Splash() {
           <ul className="reagent-list">
             {currentRecipe.reagents.map((reagent, index) => (
               <li key={index}>
-                <img src={reagent.iconUrl} alt={reagent.name} className="reagent-icon" />
-                <span className="reagent-name">{reagent.name}</span>
-                <span className="reagent-quantity">({reagent.quantity * craftMultiplier})</span>
+                <span className="reagent-name">{reagent.reagentName}</span>
+                <span className="reagent-quantity">({reagent.amount * craftMultiplier})</span>
               </li>
             ))}
           </ul>
@@ -189,8 +156,7 @@ function Splash() {
               {pinnedRecipes.map((recipe, index) => (
                 <div key={index} className="pinned-recipe">
                   <button className="close-btn" onClick={() => removePinnedRecipe(index)}>×</button>
-                  <img src={recipe.iconUrl} alt={recipe.itemName} className="recipe-icon" />
-                  <h3>{recipe.itemName}</h3>
+                  <h3>{recipe.WowheadName}</h3>
                   <div className="craft-multiplier">
                     <label htmlFor={`craftMultiplier-${index}`}>Craft Multiplier:</label>
                     <input
@@ -206,9 +172,8 @@ function Splash() {
                   <ul className="reagent-list">
                     {recipe.reagents.map((reagent, reagentIndex) => (
                       <li key={reagentIndex}>
-                        <img src={reagent.iconUrl} alt={reagent.name} className="reagent-icon" />
-                        <span className="reagent-name">{reagent.name}</span>
-                        <span className="reagent-quantity">({Math.round(reagent.quantity)})</span>
+                        <span className="reagent-name">{reagent.reagentName}</span>
+                        <span className="reagent-quantity">({Math.round(reagent.amount)})</span>
                       </li>
                     ))}
                   </ul>
@@ -222,9 +187,8 @@ function Splash() {
             <ul className="reagent-list">
               {shoppingList.map((reagent, index) => (
                 <li key={index}>
-                  <img src={reagent.iconUrl} alt={reagent.name} className="reagent-icon" />
-                  <span className="reagent-name">{reagent.name}</span>
-                  <span className="reagent-quantity">({Math.round(reagent.quantity)})</span>
+                  <span className="reagent-name">{reagent.reagentName}</span>
+                  <span className="reagent-quantity">({Math.round(reagent.amount)})</span>
                 </li>
               ))}
             </ul>
