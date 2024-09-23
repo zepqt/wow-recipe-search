@@ -186,6 +186,14 @@ button {
   min-width: 60px;
 }
 
+.reagent-image {
+  width: 32px; /* Adjust the size as needed */
+  height: 32px; /* Adjust the size as needed */
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
 /* Adjust craft multiplier styles to match the new theme */
 .craft-multiplier {
   display: flex;
