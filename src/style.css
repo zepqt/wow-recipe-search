@@ -159,12 +159,12 @@ button {
   background-color: #353845; /* Lighter shade for odd rows */
 }
 
-.reagent-icon {
-  width: 32px;
-  height: 32px;
+.reagent-image {
+  width: 32px; /* Adjust the size as needed */
+  height: 32px; /* Adjust the size as needed */
+  display: table-cell;
   margin-right: 0.5rem;
   vertical-align: middle;
-  display: table-cell;
   padding: 8px;
 }
 
@@ -184,14 +184,6 @@ button {
   font-weight: bold;
   color: #ffd100;
   min-width: 60px;
-}
-
-.reagent-image {
-  width: 32px; /* Adjust the size as needed */
-  height: 32px; /* Adjust the size as needed */
-  display: inline-block;
-  margin-left: 10px;
-  vertical-align: middle;
 }
 
 /* Adjust craft multiplier styles to match the new theme */

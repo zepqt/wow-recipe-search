@@ -213,15 +213,15 @@ function Splash() {
               console.log('Rendering reagent:', reagent);
               return (
                 <li key={index}>
-                  <span className="reagent-name">{reagent.reagentName}</span>
-                  <span className="reagent-quantity">
-                    ({reagent.amount * craftMultiplier})
-                  </span>
                   {reagent.imageUrl ? (
                     <img src={reagent.imageUrl} alt={reagent.reagentName} className="reagent-image" />
                   ) : (
                     <span>No image available for {reagent.reagentName}</span>
                   )}
+                  <span className="reagent-name">{reagent.reagentName}</span>
+                  <span className="reagent-quantity">
+                    ({reagent.amount * craftMultiplier})
+                  </span>
                 </li>
               );
             })}
@@ -264,17 +264,17 @@ function Splash() {
                   <ul className="reagent-list">
                     {recipe.reagents.map((reagent, reagentIndex) => (
                       <li key={reagentIndex}>
+                        {reagent.imageUrl ? (
+                          <img src={reagent.imageUrl} alt={reagent.reagentName} className="reagent-image" />
+                        ) : (
+                          <span>No image available for {reagent.reagentName}</span>
+                        )}
                         <span className="reagent-name">
                           {reagent.reagentName}
                         </span>
                         <span className="reagent-quantity">
                           ({Math.round(reagent.amount)})
                         </span>
-                        {reagent.imageUrl ? (
-                          <img src={reagent.imageUrl} alt={reagent.reagentName} className="reagent-image" />
-                        ) : (
-                          <span>No image available for {reagent.reagentName}</span>
-                        )}
                       </li>
                     ))}
                   </ul>
@@ -288,15 +288,15 @@ function Splash() {
             <ul className="reagent-list">
               {shoppingList.map((reagent, index) => (
                 <li key={index}>
-                  <span className="reagent-name">{reagent.reagentName}</span>
-                  <span className="reagent-quantity">
-                    ({Math.round(reagent.amount)})
-                  </span>
                   {reagent.imageUrl ? (
                     <img src={reagent.imageUrl} alt={reagent.reagentName} className="reagent-image" />
                   ) : (
                     <span>No image available for {reagent.reagentName}</span>
                   )}
+                  <span className="reagent-name">{reagent.reagentName}</span>
+                  <span className="reagent-quantity">
+                    ({Math.round(reagent.amount)})
+                  </span>
                 </li>
               ))}
             </ul>
