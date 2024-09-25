@@ -84,6 +84,7 @@ h3 {
   background-color: var(--secondary-bg);
   color: var(--secondary-text);
   outline: none;
+  text-align: center;
 }
 
 button {
@@ -155,6 +156,7 @@ button:hover {
   text-align: left;
   color: var(--secondary-text);
   transition: background-color 0.3s ease;
+  text-align: center;
 }
 
 .suggestions-list li:hover {
@@ -192,8 +194,7 @@ button:hover {
   height: 40px;
   display: table-cell;
   vertical-align: middle;
-  padding: 10px;
-  border-radius: 8px 0 0 8px;
+  padding: 14px;
 }
 
 .reagent-name {
@@ -236,7 +237,7 @@ button:hover {
 }
 
 #craftMultiplier {
-  width: 80px;
+  width: 40px;
   padding: 8px 12px;
   font-size: 1rem;
   border: 2px solid var(--border-color);
@@ -254,9 +255,9 @@ button:hover {
 
 .pin-recipe-btn {
   padding: 8px 15px;
-  margin-bottom: 15px;
-  background-color: var(--accent-color);
-  color: var(--primary-bg);
+  margin-bottom: 30px;
+  background-color: #007bff;
+  color: white;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -265,7 +266,7 @@ button:hover {
 }
 
 .pin-recipe-btn:hover {
-  background-color: #ffe666;
+  background-color: #0061c9;
   transform: translateY(-1px);
 }
 
@@ -401,19 +402,28 @@ button:hover {
 
 .wowhead-link {
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
-  gap: 10px;
+  text-align: center;
+  text-decoration: none;
+  gap: 5px;
 }
 
 .wowhead-link .iconsmall,
 .wowhead-link .iconmedium,
 .wowhead-link .iconlarge {
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .wowhead-link ins {
   text-decoration: none;
+}
+
+/* Ensure the text wraps properly if it's too long */
+.wowhead-link span {
+  max-width: 100%;
+  word-wrap: break-word;
 }
 
 .logo-container {

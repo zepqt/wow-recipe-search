@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import "./style.css";
 import logo from "./enchant_icon.webp";
 import hammer from "./hammer.webp"; // Add this line
@@ -51,6 +51,8 @@ function Splash() {
   const [pinnedRecipes, setPinnedRecipes] = useState([]);
   const [currentRecipe, setCurrentRecipe] = useState(null);
   const [craftMultiplier, setCraftMultiplier] = useState(1);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
   useEffect(() => {
     if (searchTerm.length > 1) {
@@ -78,8 +80,10 @@ function Splash() {
       };
 
       updateRecipesWithImages();
+      setIsDropdownOpen(true);
     } else {
       setSuggestions([]);
+      setIsDropdownOpen(false);
     }
   }, [searchTerm]);
 
@@ -93,10 +97,24 @@ function Splash() {
     }
   }, [currentRecipe]);
 
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsDropdownOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   const handleSearch = (e) => {
     if (e.key === "Enter" && suggestions.length > 0) {
       searchRecipe(suggestions[0].RecipeID);
       setSearchTerm(suggestions[0].WowheadName);
+      setIsDropdownOpen(false);
     }
   };
 
@@ -108,6 +126,7 @@ function Splash() {
         setCurrentRecipe({ ...recipe, reagents: updatedReagents });
         setCraftMultiplier(1);
         setSuggestions([]);
+        setIsDropdownOpen(false);
       });
     } else {
       console.error("Recipe not found:", recipeId);
@@ -171,7 +190,7 @@ function Splash() {
         <img src={logo} alt="Recipe Search" className="wow-logo" />
         <div className="logo-tooltip">Time is money, friend!</div>
       </div>
-      <div className="search-container">
+      <div className="search-container" ref={dropdownRef}>
         <input
           type="search"
           id="recipe-search"
@@ -181,7 +200,7 @@ function Splash() {
           onChange={(e) => setSearchTerm(e.target.value)}
           onKeyPress={handleSearch}
         />
-        {suggestions.length > 0 && (
+        {isDropdownOpen && suggestions.length > 0 && (
           <ul className="suggestions-list">
             {suggestions.map((recipe) => (
               <li
@@ -189,6 +208,7 @@ function Splash() {
                 onClick={() => {
                   searchRecipe(recipe.RecipeID);
                   setSearchTerm(recipe.WowheadName);
+                  setIsDropdownOpen(false);
                 }}
               >
                 {recipe.WowheadName}
@@ -214,7 +234,7 @@ function Splash() {
             </h2>
           </div>
           <button onClick={pinRecipe} className="pin-recipe-btn">
-            Pin this recipe
+            📌 Pin Recipe
           </button>
           <div className="craft-multiplier">
             <label htmlFor="craftMultiplier">Craft Multiplier:</label>
