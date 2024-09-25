@@ -1,13 +1,14 @@
 import React, { useState, useEffect, useMemo } from "react";
 import "./style.css";
 import logo from "./enchant_icon.webp";
+import hammer from "./hammer.webp"; // Add this line
 import db from "./db.json";
-import axios from 'axios';
+import axios from "axios";
 
-const API_BASE_URL = 'https://us.api.blizzard.com/data/wow/media/item';
-const NAMESPACE = 'static-classic-us';
-const LOCALE = 'en_US';
-const ACCESS_TOKEN = 'USdbrJ7lseq7eu7ZKjZCUn2PSpoEmAULgn';
+const API_BASE_URL = "https://us.api.blizzard.com/data/wow/media/item";
+const NAMESPACE = "static-classic-us";
+const LOCALE = "en_US";
+const ACCESS_TOKEN = process.env.REACT_APP_BLIZZARD_API_KEY;
 
 const fetchReagentImage = async (itemId) => {
   try {
@@ -18,11 +19,13 @@ const fetchReagentImage = async (itemId) => {
         access_token: ACCESS_TOKEN,
       },
     });
-    const imageUrl = response.data.assets.find(asset => asset.key === 'icon').value;
+    const imageUrl = response.data.assets.find(
+      (asset) => asset.key === "icon"
+    ).value;
     console.log(`Fetched image URL for itemId ${itemId}: ${imageUrl}`);
     return imageUrl;
   } catch (error) {
-    console.error('Error fetching reagent image:', error);
+    console.error("Error fetching reagent image:", error);
     return null;
   }
 };
@@ -32,11 +35,13 @@ const updateReagentsWithImages = async (reagents) => {
   const updatedReagents = await Promise.all(
     reagents.map(async (reagent) => {
       const imageUrl = await fetchReagentImage(reagent.itemId);
-      console.log(`Updating reagent: ${reagent.reagentName}, itemId: ${reagent.itemId}, imageUrl: ${imageUrl}`);
+      console.log(
+        `Updating reagent: ${reagent.reagentName}, itemId: ${reagent.itemId}, imageUrl: ${imageUrl}`
+      );
       return { ...reagent, imageUrl };
     })
   );
-  console.log('Updated reagents with images:', updatedReagents);
+  console.log("Updated reagents with images:", updatedReagents);
   return updatedReagents;
 };
 
@@ -58,12 +63,17 @@ function Splash() {
       const updateRecipesWithImages = async () => {
         const updatedRecipes = await Promise.all(
           matchedRecipes.map(async (recipe) => {
-            const updatedReagents = await updateReagentsWithImages(recipe.reagents);
-            console.log(`Updated recipe: ${recipe.RecipeName}`, updatedReagents);
+            const updatedReagents = await updateReagentsWithImages(
+              recipe.reagents
+            );
+            console.log(
+              `Updated recipe: ${recipe.RecipeName}`,
+              updatedReagents
+            );
             return { ...recipe, reagents: updatedReagents };
           })
         );
-        console.log('Updated recipes with images:', updatedRecipes);
+        console.log("Updated recipes with images:", updatedRecipes);
         setSuggestions(updatedRecipes);
       };
 
@@ -74,13 +84,26 @@ function Splash() {
   }, [searchTerm]);
 
   useEffect(() => {
-    console.log('Current recipe updated:', currentRecipe);
+    console.log("Current recipe updated:", currentRecipe);
   }, [currentRecipe]);
+
+  useEffect(() => {
+    if (window.$WowheadPower && window.$WowheadPower.refreshLinks) {
+      window.$WowheadPower.refreshLinks();
+    }
+  }, [currentRecipe]);
+
+  const handleSearch = (e) => {
+    if (e.key === "Enter" && suggestions.length > 0) {
+      searchRecipe(suggestions[0].RecipeID);
+      setSearchTerm(suggestions[0].WowheadName);
+    }
+  };
 
   function searchRecipe(recipeId) {
     const recipe = db.find((r) => r.RecipeID === recipeId);
     if (recipe) {
-      console.log('Setting currentRecipe:', recipe);
+      console.log("Setting currentRecipe:", recipe);
       updateReagentsWithImages(recipe.reagents).then((updatedReagents) => {
         setCurrentRecipe({ ...recipe, reagents: updatedReagents });
         setCraftMultiplier(1);
@@ -144,8 +167,10 @@ function Splash() {
 
   return (
     <div className="splash-container">
-      <img src={logo} alt="Recipe Search" className="wow-logo" />
-      <h1>Classic Recipe Search</h1>
+      <div className="logo-container">
+        <img src={logo} alt="Recipe Search" className="wow-logo" />
+        <div className="logo-tooltip">Time is money, friend!</div>
+      </div>
       <div className="search-container">
         <input
           type="search"
@@ -154,13 +179,8 @@ function Splash() {
           autoComplete="off"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
+          onKeyPress={handleSearch}
         />
-        <button
-          onClick={() => searchRecipe(suggestions[0]?.RecipeID)}
-          className="search-button"
-        >
-          Search
-        </button>
         {suggestions.length > 0 && (
           <ul className="suggestions-list">
             {suggestions.map((recipe) => (
@@ -183,16 +203,19 @@ function Splash() {
             <h2>
               <a
                 href={`https://www.wowhead.com/classic/spell=${currentRecipe.SpellID}`}
+                data-wowhead={`spell=${currentRecipe.SpellID}`}
+                data-wh-icon-size="large"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="wowhead-link"
               >
                 {currentRecipe.WowheadName}
               </a>
             </h2>
-            <button onClick={pinRecipe} className="pin-recipe-btn">
-              Pin this recipe
-            </button>
           </div>
+          <button onClick={pinRecipe} className="pin-recipe-btn">
+            Pin this recipe
+          </button>
           <div className="craft-multiplier">
             <label htmlFor="craftMultiplier">Craft Multiplier:</label>
             <input
@@ -210,11 +233,15 @@ function Splash() {
           <h3>Reagents:</h3>
           <ul className="reagent-list">
             {currentRecipe.reagents.map((reagent, index) => {
-              console.log('Rendering reagent:', reagent);
+              console.log("Rendering reagent:", reagent);
               return (
                 <li key={index}>
                   {reagent.imageUrl ? (
-                    <img src={reagent.imageUrl} alt={reagent.reagentName} className="reagent-image" />
+                    <img
+                      src={reagent.imageUrl}
+                      alt={reagent.reagentName}
+                      className="reagent-image"
+                    />
                   ) : (
                     <span>No image available for {reagent.reagentName}</span>
                   )}
@@ -265,9 +292,15 @@ function Splash() {
                     {recipe.reagents.map((reagent, reagentIndex) => (
                       <li key={reagentIndex}>
                         {reagent.imageUrl ? (
-                          <img src={reagent.imageUrl} alt={reagent.reagentName} className="reagent-image" />
+                          <img
+                            src={reagent.imageUrl}
+                            alt={reagent.reagentName}
+                            className="reagent-image"
+                          />
                         ) : (
-                          <span>No image available for {reagent.reagentName}</span>
+                          <span>
+                            No image available for {reagent.reagentName}
+                          </span>
                         )}
                         <span className="reagent-name">
                           {reagent.reagentName}
@@ -289,7 +322,11 @@ function Splash() {
               {shoppingList.map((reagent, index) => (
                 <li key={index}>
                   {reagent.imageUrl ? (
-                    <img src={reagent.imageUrl} alt={reagent.reagentName} className="reagent-image" />
+                    <img
+                      src={reagent.imageUrl}
+                      alt={reagent.reagentName}
+                      className="reagent-image"
+                    />
                   ) : (
                     <span>No image available for {reagent.reagentName}</span>
                   )}
@@ -305,6 +342,7 @@ function Splash() {
       )}
 
       <footer className="footer">
+        <img src={hammer} alt="Hammer" className="footer-icon" />
         <p>Built by Zep.</p>
       </footer>
     </div>
