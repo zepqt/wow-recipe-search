@@ -1,6 +1,7 @@
+/* Root variables and global styles */
 :root {
-  --primary-bg: #0e0d1a;
-  --secondary-bg: #2c2f3b;
+  --primary-bg: #222222;
+  --secondary-bg: #303030;
   --tertiary-bg: #353845;
   --primary-text: #ffffff;
   --secondary-text: #e0e0e0;
@@ -20,32 +21,8 @@ body {
   line-height: 1.6;
 }
 
-a {
-  color: var(--accent-color);
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #ffe666;
-  text-decoration: none;
-}
-
-.splash-container {
-  max-width: 740px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.wow-logo {
-  display: block;
-  max-width: 200px;
-  margin: 50px auto 20px;
-}
-
-h1,
-h2,
-h3 {
+/* Typography */
+h1, h2, h3 {
   font-weight: 700;
   letter-spacing: -0.5px;
 }
@@ -67,12 +44,37 @@ h3 {
   margin-bottom: 20px;
 }
 
+a {
+  color: var(--accent-color);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffe666;
+  text-decoration: none;
+}
+
+/* Layout */
+.splash-container {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Header and Search */
+.header-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 .search-container {
   position: relative;
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
   width: 100%;
+  max-width: 300px;
 }
 
 #recipe-search {
@@ -80,34 +82,66 @@ h3 {
   padding: 10px 12px;
   font-size: 1rem;
   border: 1px solid var(--border-color);
-  border-radius: 0px;
+  border-radius: 4px;
   background-color: var(--secondary-bg);
   color: var(--secondary-text);
   outline: none;
   text-align: center;
 }
 
-button {
-  padding: 10px 12px;
-  font-size: 1rem;
-  font-weight: bold;
-  background-color: var(--accent-color);
-  border: none;
-  border-radius: 3px;
-  color: var(--primary-bg);
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-button:hover {
-  background-color: #ffe666;
-  transform: translateY(-1px);
-}
-
 .search-button {
   margin-left: 10px;
 }
 
+/* Suggestions List */
+.suggestions-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--tertiary-bg);
+  border: 1px solid var(--border-color);
+  width: 300px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.suggestions-list li {
+  padding: 6px 20px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--secondary-text);
+  transition: background-color 0.3s ease;
+}
+
+.suggestions-list li:hover {
+  background-color: rgba(255, 209, 0, 0.1);
+}
+
+/* Explanation Box */
+.explanation-box {
+  background-color: var(--secondary-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.explanation-box h3 {
+  margin-top: 0;
+  color: var(--accent-color);
+}
+
+.explanation-box p {
+  margin-bottom: 10px;
+}
+
+/* Results Container */
 .results-container {
   position: relative;
   padding: 30px;
@@ -130,40 +164,10 @@ button:hover {
   color: var(--secondary-text);
 }
 
-.error {
-  color: #ff6b6b;
-  font-weight: bold;
-}
-
-.suggestions-list {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 10px;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: var(--tertiary-bg);
-  border: 1px solid var(--border-color);
-  width: 300px;
-  z-index: 1000;
-  overflow: hidden;
-}
-
-.suggestions-list li {
-  padding: 6px 20px;
-  cursor: pointer;
-  text-align: left;
-  color: var(--secondary-text);
-  transition: background-color 0.3s ease;
-  text-align: center;
-}
-
-.suggestions-list li:hover {
-  background-color: rgba(255, 209, 0, 0.1);
-}
-
+/* Reagent List */
 .reagent-list {
+  background-color: var(--secondary-bg);
+  border: 1px solid var(--border-color);
   list-style-type: none;
   padding: 0;
   width: 100%;
@@ -183,10 +187,6 @@ button:hover {
 
 .reagent-list li:nth-child(odd) {
   background-color: var(--reagent-bg-odd);
-}
-
-.reagent-list li:hover {
-  transform: translateY(-1px);
 }
 
 .reagent-image {
@@ -216,13 +216,7 @@ button:hover {
   min-width: 80px;
 }
 
-.crafted-item-image {
-  width: 32px;
-  height: 32px;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
+/* Craft Multiplier */
 .craft-multiplier {
   display: flex;
   align-items: center;
@@ -253,6 +247,7 @@ button:hover {
   border-color: var(--accent-color);
 }
 
+/* Pinned Recipes */
 .pin-recipe-btn {
   padding: 8px 15px;
   margin-bottom: 30px;
@@ -279,8 +274,8 @@ button:hover {
 
 .pinned-recipes-container h2 {
   color: var(--accent-color);
-  margin-top: -10px; /* Move the heading up */
-  margin-bottom: 20px; /* Reduced from 30px */
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .pinned-recipes-grid {
@@ -398,8 +393,6 @@ button:hover {
   }
 }
 
-/* Add this at the end of your existing CSS */
-
 .wowhead-link {
   display: inline-flex;
   flex-direction: column;
@@ -426,41 +419,98 @@ button:hover {
   word-wrap: break-word;
 }
 
-.logo-container {
+/* Update the header container styles */
+.header-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Update the search container styles if needed */
+.search-container {
   position: relative;
-  display: inline-block;
+  width: 100%;
+  max-width: 300px;
 }
 
-.logo-tooltip {
-  rotate: -2deg;
-  visibility: hidden;
-  width: 200px;
-  background-color: #007bff;
-  color: var(--primary-text);
+.explanation-box {
+  background-color: var(--secondary-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
   text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 100px;
-  left: 50%;
-  margin-left: -100px;
-  opacity: 0;
-  transition: opacity 0.3s;
 }
 
-.logo-tooltip::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #007bff transparent transparent transparent;
+.note {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: #31d19f;
+  padding: 10px;
 }
 
-.logo-container:hover .logo-tooltip {
-  visibility: visible;
-  opacity: 1;
+.explanation-box h3 {
+  margin-top: 0;
+  color: var(--accent-color);
+}
+
+.explanation-box p {
+  margin-bottom: 10px;
+}
+
+/* Define a common box style */
+.common-box-style {
+  background-color: var(--secondary-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Apply the common style to all relevant containers */
+.explanation-box,
+.results-container,
+.pinned-recipes-container,
+.shopping-list-container {
+  @extend .common-box-style;
+}
+
+/* If you're not using a CSS preprocessor that supports @extend, 
+   you can apply the styles directly like this: */
+
+.explanation-box,
+.results-container,
+.pinned-recipes-container,
+.shopping-list-container {
+  background-color: var(--secondary-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* You may need to adjust some specific styles for each container */
+
+.results-container {
+  /* Any specific styles for results container */
+}
+
+.pinned-recipes-container {
+  /* Any specific styles for pinned recipes container */
+}
+
+.shopping-list-container {
+  /* Any specific styles for shopping list container */
+}
+
+/* For the pinned recipe items, you might want to add a border as well */
+.pinned-recipe {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
 }

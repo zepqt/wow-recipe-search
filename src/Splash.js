@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import "./style.css";
-import logo from "./enchant_icon.webp";
-import hammer from "./hammer.webp"; // Add this line
+import potion from "./potion.webp";
 import db from "./db.json";
 import axios from "axios";
 
@@ -53,6 +52,7 @@ function Splash() {
   const [craftMultiplier, setCraftMultiplier] = useState(1);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
+  const [showExplanation, setShowExplanation] = useState(true);
 
   useEffect(() => {
     if (searchTerm.length > 1) {
@@ -127,6 +127,7 @@ function Splash() {
         setCraftMultiplier(1);
         setSuggestions([]);
         setIsDropdownOpen(false);
+        setShowExplanation(false); // Hide the explanation box
       });
     } else {
       console.error("Recipe not found:", recipeId);
@@ -186,37 +187,53 @@ function Splash() {
 
   return (
     <div className="splash-container">
-      <div className="logo-container">
-        <img src={logo} alt="Recipe Search" className="wow-logo" />
-        <div className="logo-tooltip">Time is money, friend!</div>
+      <div className="header-container">
+        <div className="search-container" ref={dropdownRef}>
+          <input
+            type="search"
+            id="recipe-search"
+            placeholder="Search for a recipe"
+            autoComplete="off"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            onKeyPress={handleSearch}
+            onFocus={(e) => e.target.placeholder = ""}
+            onBlur={(e) => e.target.placeholder = "Search for a recipe"}
+          />
+          {isDropdownOpen && suggestions.length > 0 && (
+            <ul className="suggestions-list">
+              {suggestions.map((recipe) => (
+                <li
+                  key={recipe.RecipeID}
+                  onClick={() => {
+                    searchRecipe(recipe.RecipeID);
+                    setSearchTerm(recipe.WowheadName);
+                    setIsDropdownOpen(false);
+                  }}
+                >
+                  {recipe.WowheadName}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
       </div>
-      <div className="search-container" ref={dropdownRef}>
-        <input
-          type="search"
-          id="recipe-search"
-          placeholder="Search for a recipe"
-          autoComplete="off"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          onKeyPress={handleSearch}
-        />
-        {isDropdownOpen && suggestions.length > 0 && (
-          <ul className="suggestions-list">
-            {suggestions.map((recipe) => (
-              <li
-                key={recipe.RecipeID}
-                onClick={() => {
-                  searchRecipe(recipe.RecipeID);
-                  setSearchTerm(recipe.WowheadName);
-                  setIsDropdownOpen(false);
-                }}
-              >
-                {recipe.WowheadName}
-              </li>
-            ))}
-          </ul>
-        )}
-      </div>
+      
+      {showExplanation && (
+        <div className="explanation-box">
+          <img src={potion} alt="Potion" className="potion-image" />
+          <h3>Classic Recipe Search</h3>
+          <p>
+            Search for recipes, pin them and get a consolidated shopping list.
+          </p>
+          <p className="note">
+            <b>Note:</b>
+            <br />
+            There may be some recipes that are not yet available in the database as Blizzard does not provide an API for Classic recipes. I'm working on adding these asap.
+          </p>
+        </div>
+      )}
+
       {currentRecipe && (
         <div className="results-container">
           <div className="recipe-header">
@@ -362,7 +379,6 @@ function Splash() {
       )}
 
       <footer className="footer">
-        <img src={hammer} alt="Hammer" className="footer-icon" />
         <p>Built by Zep.</p>
       </footer>
     </div>
