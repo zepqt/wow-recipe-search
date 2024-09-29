@@ -3370,24 +3370,6 @@
     ]
   },
   {
-    "RecipeID": 2356,
-    "SpellID": 3908,
-    "RecipeName": "Tailoring",
-    "WowheadName": "Tailoring"
-  },
-  {
-    "RecipeID": 2357,
-    "SpellID": 3909,
-    "RecipeName": "Tailoring",
-    "WowheadName": "Tailoring"
-  },
-  {
-    "RecipeID": 2358,
-    "SpellID": 3910,
-    "RecipeName": "Tailoring",
-    "WowheadName": "Tailoring"
-  },
-  {
     "RecipeID": 2359,
     "SpellID": 2963,
     "RecipeName": "Bolt of Linen Cloth",
@@ -9305,6 +9287,11 @@
         "itemId": 3860,
         "amount": 10,
         "reagentName": "Mithril Bar"
+      },
+      {
+        "itemId": 1705,
+        "amount": 2,
+        "reagentName": "Lesser Moonstone"
       }
     ]
   },
@@ -12522,12 +12509,6 @@
     ]
   },
   {
-    "RecipeID": 6625,
-    "SpellID": 12180,
-    "RecipeName": "Tailoring",
-    "WowheadName": "Tailoring"
-  },
-  {
     "RecipeID": 6636,
     "SpellID": 12260,
     "RecipeName": "Rough Copper Vest",
@@ -13598,31 +13579,91 @@
     "RecipeID": 7356,
     "SpellID": 13378,
     "RecipeName": "Minor Stamina",
-    "WowheadName": "Enchant Shield - Minor Stamina"
+    "WowheadName": "Enchant Shield - Minor Stamina",
+    "reagents": [
+      {
+        "itemId": 10998,
+        "amount": 1,
+        "reagentName": "Lesser Astral Essence"
+      },
+      {
+        "itemId": 10940,
+        "amount": 2,
+        "reagentName": "Strange Dust"
+      }
+    ]
   },
   {
     "RecipeID": 7357,
     "SpellID": 13380,
     "RecipeName": "Lesser Versatility",
-    "WowheadName": "Enchant 2H Weapon - Lesser Spirit"
+    "WowheadName": "Enchant 2H Weapon - Lesser Spirit",
+    "reagents": [
+      {
+        "itemId": 10998,
+        "amount": 1,
+        "reagentName": "Lesser Astral Essence"
+      },
+      {
+        "itemId": 10940,
+        "amount": 6,
+        "reagentName": "Strange Dust"
+      }
+    ]
   },
   {
     "RecipeID": 7376,
     "SpellID": 13419,
     "RecipeName": "Minor Agility",
-    "WowheadName": "Enchant Cloak - Minor Agility"
+    "WowheadName": "Enchant Cloak - Minor Agility",
+    "reagents": [
+      {
+        "itemId": 10998,
+        "amount": 1,
+        "reagentName": "Lesser Astral Essence"
+      }
+    ]
   },
   {
     "RecipeID": 7377,
     "SpellID": 13421,
     "RecipeName": "Lesser Protection",
-    "WowheadName": "Enchant Cloak - Lesser Protection"
+    "WowheadName": "Enchant Cloak - Lesser Protection",
+    "reagents": [
+      {
+        "itemId": 10940,
+        "amount": 6,
+        "reagentName": "Strange Dust"
+      },
+      {
+        "itemId": 10978,
+        "amount": 1,
+        "reagentName": "Small Glimmering Shard"
+      }
+    ]
   },
   {
     "RecipeID": 7416,
     "SpellID": 13464,
     "RecipeName": "Lesser Protection",
-    "WowheadName": "Enchant Shield - Lesser Protection"
+    "WowheadName": "Enchant Shield - Lesser Protection",
+    "reagents": [
+      {
+        "itemId": 10998,
+        "amount": 1,
+        "reagentName": "Lesser Astral Essence"
+      },
+      {
+        "itemId": 10940,
+        "amount": 1,
+        "reagentName": "Strange Dust"
+      },
+      {
+        "itemId": 10978,
+        "amount": 1,
+        "reagentName": "Small Glimmering Shard"
+      }
+    ]
   },
   {
     "RecipeID": 7417,
@@ -14594,8 +14635,13 @@
     "reagents": [
       {
         "itemId": 12359,
-        "amount": 8,
+        "amount": 12,
         "reagentName": "Thorium Bar"
+      },
+      {
+        "itemId": 11186,
+        "amount": 4,
+        "reagentName": "Red Power Crystal"
       }
     ]
   },
@@ -14784,13 +14830,18 @@
     "reagents": [
       {
         "itemId": 12359,
-        "amount": 12,
+        "amount": 24,
         "reagentName": "Thorium Bar"
       },
       {
         "itemId": 7910,
         "amount": 1,
         "reagentName": "Star Ruby"
+      },
+      {
+        "itemId": 11188,
+        "amount": 4,
+        "reagentName": "Yellow Power Crystal"
       }
     ]
   },

@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import "./style.css";
-import potion from "./potion.webp";
+import anvil from "./anvil.webp";
+import cog from "./cog.webp";
 import db from "./db.json";
 import axios from "axios";
 
@@ -187,6 +188,7 @@ function Splash() {
 
   return (
     <div className="splash-container">
+        <img src={anvil} alt="Anvil" className="anvil-image" />
       <div className="header-container">
         <div className="search-container" ref={dropdownRef}>
           <input
@@ -197,8 +199,8 @@ function Splash() {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             onKeyPress={handleSearch}
-            onFocus={(e) => e.target.placeholder = ""}
-            onBlur={(e) => e.target.placeholder = "Search for a recipe"}
+            onFocus={(e) => (e.target.placeholder = "")}
+            onBlur={(e) => (e.target.placeholder = "Search for a recipe")}
           />
           {isDropdownOpen && suggestions.length > 0 && (
             <ul className="suggestions-list">
@@ -218,18 +220,20 @@ function Splash() {
           )}
         </div>
       </div>
-      
+
       {showExplanation && (
         <div className="explanation-box">
-          <img src={potion} alt="Potion" className="potion-image" />
           <h3>Classic Recipe Search</h3>
           <p>
             Search for recipes, pin them and get a consolidated shopping list.
           </p>
           <p className="note">
-            <b>Note:</b>
+            <img src={cog} alt="Cog" className="cog-image" />
             <br />
-            There may be some recipes that are not yet available in the database as Blizzard does not provide an API for Classic recipes. I'm working on adding these asap.
+            There may be some recipes that are not yet available in the database
+            as Blizzard does not provide an API for Classic professions.
+            <br />
+            I'm working on adding these asap!
           </p>
         </div>
       )}
@@ -251,7 +255,7 @@ function Splash() {
             </h2>
           </div>
           <button onClick={pinRecipe} className="pin-recipe-btn">
-            📌 Pin Recipe
+            Pin Recipe
           </button>
           <div className="craft-multiplier">
             <label htmlFor="craftMultiplier">Craft Multiplier:</label>
@@ -305,7 +309,7 @@ function Splash() {
                   >
                     ×
                   </button>
-                  <h3>{recipe.WowheadName}</h3>
+                  <h3>{recipe.WowheadName} <br /> <span className="x-multiplier">({recipe.multiplier})</span></h3>
                   <div className="craft-multiplier">
                     <label htmlFor={`craftMultiplier-${index}`}>
                       Craft Multiplier:
