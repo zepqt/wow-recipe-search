@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/wow-recipe-search/static/css/main.0d508af7.css",
-    "main.js": "/wow-recipe-search/static/js/main.4e70ecaf.js",
+    "main.css": "/wow-recipe-search/static/css/main.7c7fd171.css",
+    "main.js": "/wow-recipe-search/static/js/main.29541f8d.js",
     "static/js/453.81c842ae.chunk.js": "/wow-recipe-search/static/js/453.81c842ae.chunk.js",
-    "static/media/hammer.webp": "/wow-recipe-search/static/media/hammer.4a2f8d272422bf996513.webp",
-    "static/media/enchant_icon.webp": "/wow-recipe-search/static/media/enchant_icon.eaa9cc1270fc0a69bc25.webp",
+    "static/media/cog.webp": "/wow-recipe-search/static/media/cog.6b7396a99346791cf7a1.webp",
+    "static/media/anvil.webp": "/wow-recipe-search/static/media/anvil.34974f0dfe5c85c154cf.webp",
     "index.html": "/wow-recipe-search/index.html",
-    "main.0d508af7.css.map": "/wow-recipe-search/static/css/main.0d508af7.css.map",
-    "main.4e70ecaf.js.map": "/wow-recipe-search/static/js/main.4e70ecaf.js.map",
+    "main.7c7fd171.css.map": "/wow-recipe-search/static/css/main.7c7fd171.css.map",
+    "main.29541f8d.js.map": "/wow-recipe-search/static/js/main.29541f8d.js.map",
     "453.81c842ae.chunk.js.map": "/wow-recipe-search/static/js/453.81c842ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d508af7.css",
-    "static/js/main.4e70ecaf.js"
+    "static/css/main.7c7fd171.css",
+    "static/js/main.29541f8d.js"
   ]
 }
