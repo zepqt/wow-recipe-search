@@ -295,12 +295,6 @@
     ]
   },
   {
-    "RecipeID": 1374,
-    "SpellID": 2259,
-    "RecipeName": "Alchemy",
-    "WowheadName": "Alchemy"
-  },
-  {
     "RecipeID": 1377,
     "SpellID": 2330,
     "RecipeName": "Minor Healing Potion",
@@ -1301,20 +1295,41 @@
     "RecipeID": 1846,
     "SpellID": 3308,
     "RecipeName": "Smelt Gold",
-    "WowheadName": "Smelt Gold"
-  },
+    "WowheadName": "Smelt Gold",
+    "reagents": [
+      {
+        "itemId": 2776,
+        "amount": 1,
+        "reagentName": "Gold Ore"
+      }
+    ]
+  },  
   {
     "RecipeID": 1847,
     "SpellID": 3307,
     "RecipeName": "Smelt Iron",
-    "WowheadName": "Smelt Iron"
-  },
+    "WowheadName": "Smelt Iron",
+    "reagents": [
+      {
+        "itemId": 2772,
+        "amount": 1,
+        "reagentName": "Iron Ore"
+      }
+    ]
+  },  
   {
-    "RecipeID": 1848,
+    "RecipeID": 3304,
     "SpellID": 3304,
     "RecipeName": "Smelt Tin",
-    "WowheadName": "Smelt Tin"
-  },
+    "WowheadName": "Smelt Tin",
+    "reagents": [
+      {
+        "itemId": 2771,
+        "amount": 1,
+        "reagentName": "Tin Ore"
+      }
+    ]
+  },  
   {
     "RecipeID": 1849,
     "SpellID": 3292,
@@ -6871,35 +6886,31 @@
     ]
   },
   {
-    "RecipeID": 4286,
-    "SpellID": 7411,
-    "RecipeName": "Enchanting",
-    "WowheadName": "Enchanting"
-  },
-  {
-    "RecipeID": 4287,
-    "SpellID": 7412,
-    "RecipeName": "Enchanting",
-    "WowheadName": "Enchanting"
-  },
-  {
-    "RecipeID": 4288,
-    "SpellID": 7413,
-    "RecipeName": "Enchanting",
-    "WowheadName": "Enchanting"
-  },
-  {
     "RecipeID": 4289,
     "SpellID": 7418,
-    "RecipeName": "Minor Health",
-    "WowheadName": "Enchant Bracer - Minor Health"
+    "RecipeName": "Enchant Bracer - Minor Health",
+    "WowheadName": "Enchant Bracer - Minor Health",
+    "reagents": [
+      {
+        "itemId": 10940,
+        "amount": 1,
+        "reagentName": "Strange Dust"
+      }
+    ]
   },
   {
     "RecipeID": 4290,
     "SpellID": 7420,
-    "RecipeName": "Minor Health",
-    "WowheadName": "Enchant Chest - Minor Health"
-  },
+    "RecipeName": "Enchant Chest - Minor Health",
+    "WowheadName": "Enchant Chest - Minor Health",
+    "reagents": [
+      {
+        "itemId": 10940,
+        "amount": 1,
+        "reagentName": "Strange Dust"
+      }
+    ]
+  },  
   {
     "RecipeID": 4291,
     "SpellID": 7421,
@@ -6926,15 +6937,39 @@
   {
     "RecipeID": 4292,
     "SpellID": 7426,
-    "RecipeName": "Minor Absorption",
-    "WowheadName": "Enchant Chest - Minor Absorption"
+    "RecipeName": "Enchant Chest - Minor Absorption",
+    "WowheadName": "Enchant Chest - Minor Absorption",
+    "reagents": [
+      {
+        "itemId": 10940,
+        "amount": 2,
+        "reagentName": "Strange Dust"
+      },
+      {
+        "itemId": 10938,
+        "amount": 1,
+        "reagentName": "Lesser Magic Essence"
+      }
+    ]
   },
   {
     "RecipeID": 4293,
     "SpellID": 7428,
-    "RecipeName": "Minor Dodge",
-    "WowheadName": "Enchant Bracer - Minor Deflect"
-  },
+    "RecipeName": "Enchant Bracer - Minor Dodge",
+    "WowheadName": "Enchant Bracer - Minor Deflect",
+    "reagents": [
+      {
+        "itemId": 10940,
+        "amount": 1,
+        "reagentName": "Strange Dust"
+      },
+      {
+        "itemId": 10938,
+        "amount": 1,
+        "reagentName": "Lesser Magic Essence"
+      }
+    ]
+  },  
   {
     "RecipeID": 4294,
     "SpellID": 7430,
@@ -6951,15 +6986,29 @@
   {
     "RecipeID": 4297,
     "SpellID": 7443,
-    "RecipeName": "Minor Mana",
-    "WowheadName": "Enchant Chest - Minor Mana"
+    "RecipeName": "Enchant Chest - Minor Mana",
+    "WowheadName": "Enchant Chest - Minor Mana",
+    "reagents": [
+      {
+        "itemId": 10938,
+        "amount": 1,
+        "reagentName": "Lesser Magic Essence"
+      }
+    ]
   },
   {
     "RecipeID": 4301,
     "SpellID": 7457,
-    "RecipeName": "Minor Stamina",
-    "WowheadName": "Enchant Bracer - Minor Stamina"
-  },
+    "RecipeName": "Enchant Bracer - Minor Stamina",
+    "WowheadName": "Enchant Bracer - Minor Stamina",
+    "reagents": [
+      {
+        "itemId": 10940,
+        "amount": 3,
+        "reagentName": "Strange Dust"
+      }
+    ]
+  },  
   {
     "RecipeID": 4302,
     "SpellID": 7623,
@@ -7125,8 +7174,20 @@
   {
     "RecipeID": 4352,
     "SpellID": 7748,
-    "RecipeName": "Lesser Health",
-    "WowheadName": "Enchant Chest - Lesser Health"
+    "RecipeName": "Enchant Chest - Lesser Health",
+    "WowheadName": "Enchant Chest - Lesser Health",
+    "reagents": [
+      {
+        "itemId": 10940,
+        "amount": 2,
+        "reagentName": "Strange Dust"
+      },
+      {
+        "itemId": 10938,
+        "amount": 2,
+        "reagentName": "Lesser Magic Essence"
+      }
+    ]
   },
   {
     "RecipeID": 4353,

@@ -188,7 +188,7 @@ function Splash() {
 
   return (
     <div className="splash-container">
-        <img src={anvil} alt="Anvil" className="anvil-image" />
+      <img src={anvil} alt="Anvil" className="anvil-image" />
       <div className="header-container">
         <div className="search-container" ref={dropdownRef}>
           <input
@@ -309,7 +309,19 @@ function Splash() {
                   >
                     ×
                   </button>
-                  <h3>{recipe.WowheadName} <br /> <span className="x-multiplier">({recipe.multiplier})</span></h3>
+                  <h3>
+                    {" "}
+                    <a
+                      href={`https://www.wowhead.com/classic/spell=${recipe.SpellID}`}
+                      data-wowhead={`spell=${currentRecipe.SpellID}`}
+                      data-wh-icon-size="large"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="wowhead-link"
+                    ></a>{" "}
+                    <br />{" "}
+                    <span className="x-multiplier">x{recipe.multiplier}</span>
+                  </h3>
                   <div className="craft-multiplier">
                     <label htmlFor={`craftMultiplier-${index}`}>
                       Craft Multiplier:
