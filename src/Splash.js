@@ -93,10 +93,14 @@ function Splash() {
   }, [currentRecipe]);
 
   useEffect(() => {
-    if (window.$WowheadPower && window.$WowheadPower.refreshLinks) {
-      window.$WowheadPower.refreshLinks();
-    }
-  }, [currentRecipe]);
+    const timer = setTimeout(() => {
+      if (window.$WowheadPower && window.$WowheadPower.refreshLinks) {
+        window.$WowheadPower.refreshLinks();
+      }
+    }, 100);  // 100ms delay
+
+    return () => clearTimeout(timer);
+  }, [currentRecipe, pinnedRecipes]);
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -223,7 +227,7 @@ function Splash() {
 
       {showExplanation && (
         <div className="explanation-box">
-          <h3>Classic Recipe Search</h3>
+          <h3>Crafting Tool</h3>
           <p>
             Search for recipes, pin them and get a consolidated shopping list.
           </p>
@@ -313,7 +317,7 @@ function Splash() {
                     {" "}
                     <a
                       href={`https://www.wowhead.com/classic/spell=${recipe.SpellID}`}
-                      data-wowhead={`spell=${currentRecipe.SpellID}`}
+                      data-wowhead={`spell=${recipe.SpellID}`}
                       data-wh-icon-size="large"
                       target="_blank"
                       rel="noopener noreferrer"

@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 0 20px;
+  height: 60px;
+  width: 100vw;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+  flex: 2;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.navbar-logo {
+  height: 40px;
+  margin-right: 5px;
+  rotate: -2deg;
+}
+
+.navbar-logo-text {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px 0px #000;
+  margin-right: 30px;
+  padding-bottom: 6.5px;
+}
+
+.navbar-crafting-icon {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  height: 60px;  /* Same as navbar height */
+  transition: background-color 0.3s ease;
+}
+
+.nav-items a:hover {
+  background-color: rgba(0, 0, 0, 0.2);  /* Darker background on hover */
+}
+
+* {
+  box-sizing: border-box;
+}
