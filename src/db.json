@@ -622,30 +622,6 @@
     ]
   },
   {
-    "RecipeID": 1568,
-    "SpellID": 2580,
-    "RecipeName": "Find Minerals",
-    "WowheadName": "Find Minerals"
-  },
-  {
-    "RecipeID": 1569,
-    "SpellID": 2575,
-    "RecipeName": "Mining",
-    "WowheadName": "Mining"
-  },
-  {
-    "RecipeID": 1570,
-    "SpellID": 2576,
-    "RecipeName": "Mining",
-    "WowheadName": "Mining"
-  },
-  {
-    "RecipeID": 1597,
-    "SpellID": 2656,
-    "RecipeName": "Mining Journal",
-    "WowheadName": "Smelting"
-  },
-  {
     "RecipeID": 1599,
     "SpellID": 2658,
     "RecipeName": "Smelt Silver",
@@ -6398,18 +6374,6 @@
     ]
   },
   {
-    "RecipeID": 4044,
-    "SpellID": 824,
-    "RecipeName": "Horse Riding",
-    "WowheadName": "Horse Riding"
-  },
-  {
-    "RecipeID": 4141,
-    "SpellID": 750,
-    "RecipeName": "Plate Mail",
-    "WowheadName": "Plate Mail"
-  },
-  {
     "RecipeID": 4156,
     "SpellID": 7126,
     "RecipeName": "Handstitched Leather Vest",
@@ -11097,36 +11061,6 @@
         "reagentName": "Cured Thick Hide"
       }
     ]
-  },
-  {
-    "RecipeID": 5706,
-    "SpellID": 10662,
-    "RecipeName": "Leatherworking",
-    "WowheadName": "Leatherworking"
-  },
-  {
-    "RecipeID": 5746,
-    "SpellID": 10768,
-    "RecipeName": "Skinning",
-    "WowheadName": "Skinning"
-  },
-  {
-    "RecipeID": 5786,
-    "SpellID": 10861,
-    "RecipeName": "Raptor Riding",
-    "WowheadName": "Raptor Riding"
-  },
-  {
-    "RecipeID": 5806,
-    "SpellID": 10907,
-    "RecipeName": "Mechanostrider Piloting",
-    "WowheadName": "Mechanostrider Piloting"
-  },
-  {
-    "RecipeID": 5807,
-    "SpellID": 10906,
-    "RecipeName": "Undead Horsemanship",
-    "WowheadName": "Undead Horsemanship"
   },
   {
     "RecipeID": 5997,
@@ -17379,12 +17313,6 @@
     ]
   },
   {
-    "RecipeID": 10716,
-    "SpellID": 18995,
-    "RecipeName": "Kodo Riding",
-    "WowheadName": "Kodo Riding"
-  },
-  {
     "RecipeID": 10756,
     "SpellID": 19047,
     "RecipeName": "Cured Rugged Hide",
@@ -19220,93 +19148,258 @@
   {
     "RecipeID": 11373,
     "SpellID": 20008,
-    "RecipeName": "Greater Intellect",
-    "WowheadName": "Enchant Bracer - Greater Intellect"
+    "RecipeName": "Enchant Bracer - Greater Intellect",
+    "WowheadName": "Enchant Bracer - Greater Intellect",
+    "reagents": [
+      {
+        "itemId": 11175,
+        "amount": 3,
+        "reagentName": "Lesser Eternal Essence"
+      }
+    ]
   },
   {
     "RecipeID": 11374,
     "SpellID": 20020,
-    "RecipeName": "Greater Stamina",
-    "WowheadName": "Enchant Boots - Greater Stamina"
+    "RecipeName": "Enchant Boots - Greater Stamina",
+    "WowheadName": "Enchant Boots - Greater Stamina",
+    "reagents": [
+      {
+        "itemId": 11176,
+        "amount": 10,
+        "reagentName": "Dream Dust"
+      }
+    ]
   },
   {
     "RecipeID": 11376,
     "SpellID": 20017,
-    "RecipeName": "Greater Stamina",
-    "WowheadName": "Enchant Shield - Greater Stamina"
+    "RecipeName": "Enchant Shield - Greater Stamina",
+    "WowheadName": "Enchant Shield - Greater Stamina",
+    "reagents": [
+      {
+        "itemId": 11176,
+        "amount": 10,
+        "reagentName": "Dream Dust"
+      }
+    ]
   },
   {
     "RecipeID": 11377,
     "SpellID": 20009,
-    "RecipeName": "Superior Versatility",
-    "WowheadName": "Enchant Bracer - Superior Spirit"
+    "RecipeName": "Enchant Bracer - Superior Spirit",
+    "WowheadName": "Enchant Bracer - Superior Spirit",
+    "reagents": [
+      {
+        "itemId": 11175,
+        "amount": 3,
+        "reagentName": "Lesser Eternal Essence"
+      },
+      {
+        "itemId": 11176,
+        "amount": 10,
+        "reagentName": "Dream Dust"
+      }
+    ]
   },
   {
     "RecipeID": 11378,
     "SpellID": 20012,
-    "RecipeName": "Greater Agility",
-    "WowheadName": "Enchant Gloves - Greater Agility"
+    "RecipeName": "Enchant Gloves - Greater Agility",
+    "WowheadName": "Enchant Gloves - Greater Agility",
+    "reagents": [
+      {
+        "itemId": 16204,
+        "amount": 3,
+        "reagentName": "Illusion Dust"
+      },
+      {
+        "itemId": 16202,
+        "amount": 3,
+        "reagentName": "Lesser Eternal Essence"
+      }
+    ]
   },
   {
     "RecipeID": 11379,
     "SpellID": 20024,
-    "RecipeName": "Versatility",
-    "WowheadName": "Enchant Boots - Spirit"
-  },
+    "RecipeName": "Enchant Boots - Spirit",
+    "WowheadName": "Enchant Boots - Spirit",
+    "reagents": [
+      {
+        "itemId": 16203,
+        "amount": 2,
+        "reagentName": "Greater Eternal Essence"
+      },
+      {
+        "itemId": 11175,
+        "amount": 1,
+        "reagentName": "Lesser Eternal Essence"
+      }
+    ]
+  },  
   {
     "RecipeID": 11380,
     "SpellID": 20026,
-    "RecipeName": "Major Health",
-    "WowheadName": "Enchant Chest - Major Health"
+    "RecipeName": "Enchant Chest - Major Health",
+    "WowheadName": "Enchant Chest - Major Health",
+    "reagents": [
+      {
+        "itemId": 16204,
+        "amount": 6,
+        "reagentName": "Illusion Dust"
+      },
+      {
+        "itemId": 14343,
+        "amount": 1,
+        "reagentName": "Small Brilliant Shard"
+      }
+    ]
   },
   {
     "RecipeID": 11381,
     "SpellID": 20016,
-    "RecipeName": "Vitality",
-    "WowheadName": "Enchant Shield - Superior Spirit"
+    "RecipeName": "Enchant Shield - Superior Spirit",
+    "WowheadName": "Enchant Shield - Superior Spirit",
+    "reagents": [
+      {
+        "itemId": 16203,
+        "amount": 2,
+        "reagentName": "Greater Eternal Essence"
+      },
+      {
+        "itemId": 16204,
+        "amount": 4,
+        "reagentName": "Illusion Dust"
+      }
+    ]
   },
   {
     "RecipeID": 11382,
     "SpellID": 20029,
-    "RecipeName": "Icy Chill",
-    "WowheadName": "Enchant Weapon - Icy Chill"
-  },
+    "RecipeName": "Enchant Weapon - Icy Chill",
+    "WowheadName": "Enchant Weapon - Icy Chill",
+    "reagents": [
+      {
+        "itemId": 14343,
+        "amount": 4,
+        "reagentName": "Small Brilliant Shard"
+      },
+      {
+        "itemId": 7080,
+        "amount": 1,
+        "reagentName": "Essence of Water"
+      },
+      {
+        "itemId": 7082,
+        "amount": 1,
+        "reagentName": "Essence of Air"
+      },
+      {
+        "itemId": 13467,
+        "amount": 1,
+        "reagentName": "Icecap"
+      }
+    ]
+  },  
   {
     "RecipeID": 11383,
     "SpellID": 20015,
-    "RecipeName": "Superior Defense",
-    "WowheadName": "Enchant Cloak - Superior Defense"
+    "RecipeName": "Enchant Cloak - Superior Defense",
+    "WowheadName": "Enchant Cloak - Superior Defense",
+    "reagents": [
+      {
+        "itemId": 16204,
+        "amount": 8,
+        "reagentName": "Illusion Dust"
+      }
+    ]
   },
   {
     "RecipeID": 11384,
     "SpellID": 20028,
-    "RecipeName": "Major Mana",
-    "WowheadName": "Enchant Chest - Major Mana"
+    "RecipeName": "Enchant Chest - Major Mana",
+    "WowheadName": "Enchant Chest - Major Mana",
+    "reagents": [
+      {
+        "itemId": 16203,
+        "amount": 3,
+        "reagentName": "Greater Eternal Essence"
+      },
+      {
+        "itemId": 14343,
+        "amount": 1,
+        "reagentName": "Small Brilliant Shard"
+      }
+    ]
   },
   {
     "RecipeID": 11386,
     "SpellID": 20013,
-    "RecipeName": "Greater Strength",
-    "WowheadName": "Enchant Gloves - Greater Strength"
-  },
+    "RecipeName": "Enchant Gloves - Greater Strength",
+    "WowheadName": "Enchant Gloves - Greater Strength",
+    "reagents": [
+      {
+        "itemId": 16203,
+        "amount": 4,
+        "reagentName": "Greater Eternal Essence"
+      },
+      {
+        "itemId": 16204,
+        "amount": 4,
+        "reagentName": "Illusion Dust"
+      }
+    ]
+  },  
   {
     "RecipeID": 11387,
     "SpellID": 20023,
-    "RecipeName": "Greater Agility",
-    "WowheadName": "Enchant Boots - Greater Agility"
+    "RecipeName": "Enchant Boots - Greater Agility",
+    "WowheadName": "Enchant Boots - Greater Agility",
+    "reagents": [
+      {
+        "itemId": 16203,
+        "amount": 8,
+        "reagentName": "Greater Eternal Essence"
+      }
+    ]
   },
   {
     "RecipeID": 11388,
     "SpellID": 20010,
-    "RecipeName": "Superior Strength",
-    "WowheadName": "Enchant Bracer - Superior Strength"
+    "RecipeName": "Enchant Bracer - Superior Strength",
+    "WowheadName": "Enchant Bracer - Superior Strength",
+    "reagents": [
+      {
+        "itemId": 16204,
+        "amount": 6,
+        "reagentName": "Illusion Dust"
+      },
+      {
+        "itemId": 16203,
+        "amount": 6,
+        "reagentName": "Greater Eternal Essence"
+      }
+    ]
   },
   {
     "RecipeID": 11389,
     "SpellID": 20030,
-    "RecipeName": "Superior Impact",
-    "WowheadName": "Enchant 2H Weapon - Superior Impact"
-  },
+    "RecipeName": "Enchant 2H Weapon - Superior Impact",
+    "WowheadName": "Enchant 2H Weapon - Superior Impact",
+    "reagents": [
+      {
+        "itemId": 14344,
+        "amount": 4,
+        "reagentName": "Large Brilliant Shard"
+      },
+      {
+        "itemId": 16204,
+        "amount": 10,
+        "reagentName": "Illusion Dust"
+      }
+    ]
+  },  
   {
     "RecipeID": 11390,
     "SpellID": 20033,
@@ -19395,21 +19488,72 @@
   {
     "RecipeID": 11395,
     "SpellID": 20025,
-    "RecipeName": "Greater Stats",
-    "WowheadName": "Enchant Chest - Greater Stats"
+    "RecipeName": "Enchant Chest - Greater Stats",
+    "WowheadName": "Enchant Chest - Greater Stats",
+    "reagents": [
+      {
+        "itemId": 14344,
+        "amount": 4,
+        "reagentName": "Large Brilliant Shard"
+      },
+      {
+        "itemId": 16203,
+        "amount": 10,
+        "reagentName": "Greater Eternal Essence"
+      },
+      {
+        "itemId": 16204,
+        "amount": 15,
+        "reagentName": "Illusion Dust"
+      }
+    ]
   },
   {
     "RecipeID": 11396,
     "SpellID": 20032,
-    "RecipeName": "Lifestealing",
-    "WowheadName": "Enchant Weapon - Lifestealing"
+    "RecipeName": "Enchant Weapon - Lifestealing",
+    "WowheadName": "Enchant Weapon - Lifestealing",
+    "reagents": [
+      {
+        "itemId": 14344,
+        "amount": 6,
+        "reagentName": "Large Brilliant Shard"
+      },
+      {
+        "itemId": 12808,
+        "amount": 6,
+        "reagentName": "Essence of Undeath"
+      },
+      {
+        "itemId": 12803,
+        "amount": 6,
+        "reagentName": "Living Essence"
+      }
+    ]
   },
   {
     "RecipeID": 11397,
     "SpellID": 20035,
-    "RecipeName": "Major Versatility",
-    "WowheadName": "Enchant 2H Weapon - Major Spirit"
-  },
+    "RecipeName": "Enchant 2H Weapon - Major Spirit",
+    "WowheadName": "Enchant 2H Weapon - Major Spirit",
+    "reagents": [
+      {
+        "itemId": 14344,
+        "amount": 8,
+        "reagentName": "Large Brilliant Shard"
+      },
+      {
+        "itemId": 16203,
+        "amount": 6,
+        "reagentName": "Greater Eternal Essence"
+      },
+      {
+        "itemId": 16204,
+        "amount": 12,
+        "reagentName": "Illusion Dust"
+      }
+    ]
+  },  
   {
     "RecipeID": 11740,
     "SpellID": 20626,
@@ -19499,8 +19643,35 @@
     "RecipeID": 11857,
     "SpellID": 20849,
     "RecipeName": "Flarecore Gloves",
-    "WowheadName": "Flarecore Gloves"
-  },
+    "WowheadName": "Flarecore Gloves",
+    "reagents": [
+      {
+        "itemId": 14048,
+        "amount": 8,
+        "reagentName": "Bolt of Runecloth"
+      },
+      {
+        "itemId": 17010,
+        "amount": 6,
+        "reagentName": "Fiery Core"
+      },
+      {
+        "itemId": 7078,
+        "amount": 4,
+        "reagentName": "Essence of Fire"
+      },
+      {
+        "itemId": 12810,
+        "amount": 2,
+        "reagentName": "Enchanted Leather"
+      },
+      {
+        "itemId": 14341,
+        "amount": 2,
+        "reagentName": "Rune Thread"
+      }
+    ]
+  },  
   {
     "RecipeID": 11858,
     "SpellID": 20853,
@@ -19991,9 +20162,41 @@
   {
     "RecipeID": 12300,
     "SpellID": 22749,
-    "RecipeName": "Spellpower",
-    "WowheadName": "Enchant Weapon - Spell Power"
-  },
+    "RecipeName": "Enchant Weapon - Spell Power",
+    "WowheadName": "Enchant Weapon - Spell Power",
+    "reagents": [
+      {
+        "itemId": 14344,
+        "amount": 4,
+        "reagentName": "Large Brilliant Shard"
+      },
+      {
+        "itemId": 16203,
+        "amount": 12,
+        "reagentName": "Greater Eternal Essence"
+      },
+      {
+        "itemId": 7078,
+        "amount": 4,
+        "reagentName": "Essence of Fire"
+      },
+      {
+        "itemId": 7080,
+        "amount": 4,
+        "reagentName": "Essence of Water"
+      },
+      {
+        "itemId": 7082,
+        "amount": 4,
+        "reagentName": "Essence of Air"
+      },
+      {
+        "itemId": 13926,
+        "amount": 2,
+        "reagentName": "Golden Pearl"
+      }
+    ]
+  },  
   {
     "RecipeID": 12301,
     "SpellID": 22750,

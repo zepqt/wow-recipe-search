@@ -1,7 +1,7 @@
 /* Root variables and global styles */
 :root {
-  --primary-bg: #222222;
-  --secondary-bg: #303030;
+  --primary-bg: #181818;
+  --secondary-bg: #202020;
   --tertiary-bg: #353845;
   --primary-text: #ffffff;
   --secondary-text: #e0e0e0;
@@ -12,6 +12,7 @@
 }
 
 body {
+  position: relative;
   background-color: var(--primary-bg);
   color: var(--primary-text);
   font-family: "Inter", sans-serif;
@@ -19,12 +20,40 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   line-height: 1.6;
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./bwl.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  opacity: 0.1;
+  filter: blur(30px);  /* Adjust the blur amount as needed */
+  z-index: -1;
 }
 
 /* Typography */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 700;
   letter-spacing: -0.5px;
+}
+
+.tool-title {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px 0px #000;
+  font-size: 2.3rem;
+  margin-top: -10px; /* Add some space below the title */
 }
 
 h1 {
@@ -46,17 +75,11 @@ h3 {
 
 a {
   color: var(--accent-color);
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #ffe666;
-  text-decoration: none;
 }
 
 /* Layout */
 .splash-container {
-  max-width: 740px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
   text-align: center;
@@ -65,12 +88,7 @@ a:hover {
 .anvil-image {
   width: 50px;
   height: 50px;
-  margin-bottom: 10px;
-}
-
-.cog-image {
-  width: 30px;
-  height: 30px;
+  margin: 0 auto;
 }
 
 /* Header and Search */
@@ -93,11 +111,14 @@ a:hover {
   padding: 10px 12px;
   font-size: 1rem;
   border: 1px solid var(--border-color);
-  border-radius: 4px;
   background-color: var(--secondary-bg);
   color: var(--secondary-text);
   outline: none;
   text-align: center;
+}
+
+#recipe-search:focus {
+  border-color: #858585;
 }
 
 .search-button {
@@ -129,27 +150,19 @@ a:hover {
 }
 
 .suggestions-list li:hover {
-  background-color: rgba(255, 209, 0, 0.1);
+  background-color: #2c2f3b;
+  font-weight: 600;
 }
 
 /* Explanation Box */
 .explanation-box {
+  position: relative;
   background-color: var(--secondary-bg);
   border: 1px solid var(--border-color);
-  border-radius: 4px;
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-}
-
-.explanation-box h3 {
-  margin-top: 0;
-  color: var(--accent-color);
-}
-
-.explanation-box p {
-  margin-bottom: 10px;
 }
 
 /* Results Container */
@@ -157,7 +170,6 @@ a:hover {
   position: relative;
   padding: 30px;
   background-color: var(--secondary-bg);
-  border-radius: 6px;
 }
 
 .results-container h2 {
@@ -201,11 +213,9 @@ a:hover {
 }
 
 .reagent-image {
-  width: 40px;
-  height: 40px;
+  object-fit: contain; /* Ensure the entire image fits within the dimensions */
+  margin: 10px;
   display: table-cell;
-  vertical-align: middle;
-  padding: 14px;
 }
 
 .reagent-name {
@@ -242,11 +252,10 @@ a:hover {
 }
 
 #craftMultiplier {
-  width: 40px;
+  width: 80px;
   padding: 8px 12px;
   font-size: 1rem;
   border: 2px solid var(--border-color);
-  border-radius: 6px;
   background-color: var(--secondary-bg);
   color: var(--secondary-text);
   text-align: center;
@@ -260,32 +269,27 @@ a:hover {
 
 .x-multiplier {
   font-size: 1rem;
-  color: #00ffcc
+  color: #fa942e;
 }
 
 /* Pinned Recipes */
 .pin-recipe-btn {
   padding: 8px 15px;
   margin-bottom: 30px;
-  background-color: #007bff;
-  color: white;
+  background-color: #19e0f9;
+  color: black;
   border: none;
   border-radius: 20px;
   cursor: pointer;
   font-weight: 600;
+  font-size: 1rem;
   transition: all 0.3s ease;
-}
-
-.pin-recipe-btn:hover {
-  background-color: #0061c9;
-  transform: translateY(-1px);
 }
 
 .pinned-recipes-container {
   margin-top: 60px;
   padding: 30px;
   background-color: var(--secondary-bg);
-  border-radius: 6px;
 }
 
 .pinned-recipes-container h2 {
@@ -304,7 +308,6 @@ a:hover {
   position: relative;
   background-color: var(--tertiary-bg);
   padding: 20px;
-  border-radius: 6px;
   transition: transform 0.3s ease;
 }
 
@@ -359,40 +362,16 @@ a:hover {
   font-size: 0.9rem;
 }
 
-.footer {
-  flex-shrink: 0;
-  margin-top: auto;
-  padding: 20px;
-  text-align: center;
-  color: var(--secondary-text);
-  font-size: 0.9rem;
-  background-color: var(--primary-bg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-icon {
-  width: 30px; /* Adjust this value to your preferred size */
-  height: auto;
-  margin-bottom: 10px; /* Space between the icon and the text */
-}
-
-.footer p {
-  margin: 0;
-}
-
 .shopping-list-container {
   margin-top: 60px;
   padding: 30px;
   background-color: var(--secondary-bg);
-  border-radius: 6px;
 }
 
 .shopping-list-container h2 {
   color: var(--accent-color);
-  margin-top: -10px; /* Move the heading up */
-  margin-bottom: 20px; /* Reduced from 30px */
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -449,41 +428,10 @@ a:hover {
   max-width: 300px;
 }
 
-.explanation-box {
-  background-color: var(--secondary-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: left;
-  text-align: center;
-}
-
-.note {
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  background: linear-gradient(160deg, #009dff, #007fce);
-  padding: 20px;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 40px;
-}
-
-.explanation-box h3 {
-  margin-top: 0;
-  color: var(--accent-color);
-}
-
-.explanation-box p {
-  margin-bottom: 10px;
-}
-
 /* Define a common box style */
 .common-box-style {
   background-color: var(--secondary-bg);
   border: 1px solid var(--border-color);
-  border-radius: 4px;
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -506,30 +454,23 @@ a:hover {
 .shopping-list-container {
   background-color: var(--secondary-bg);
   border: 1px solid var(--border-color);
-  border-radius: 4px;
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* You may need to adjust some specific styles for each container */
-
-.results-container {
-  /* Any specific styles for results container */
-}
-
-.pinned-recipes-container {
-  /* Any specific styles for pinned recipes container */
-}
-
-.shopping-list-container {
-  /* Any specific styles for shopping list container */
-}
-
-/* For the pinned recipe items, you might want to add a border as well */
 .pinned-recipe {
   border: 1px solid var(--border-color);
-  border-radius: 4px;
   padding: 15px;
   margin-bottom: 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  transform: translateX(-25%);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  line-height: 0.5rem;
 }

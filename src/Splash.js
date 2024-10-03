@@ -97,7 +97,7 @@ function Splash() {
       if (window.$WowheadPower && window.$WowheadPower.refreshLinks) {
         window.$WowheadPower.refreshLinks();
       }
-    }, 100);  // 100ms delay
+    }, 100); // 100ms delay
 
     return () => clearTimeout(timer);
   }, [currentRecipe, pinnedRecipes]);
@@ -192,7 +192,8 @@ function Splash() {
 
   return (
     <div className="splash-container">
-      <img src={anvil} alt="Anvil" className="anvil-image" />
+                <img src={anvil} alt="Anvil" className="anvil-image" />
+                <h3 className="tool-title">Crafting Tool</h3>
       <div className="header-container">
         <div className="search-container" ref={dropdownRef}>
           <input
@@ -226,20 +227,9 @@ function Splash() {
       </div>
 
       {showExplanation && (
-        <div className="explanation-box">
-          <h3>Crafting Tool</h3>
           <p>
-            Search for recipes, pin them and get a consolidated shopping list.
+              Search for recipes, pin them and get a consolidated shopping list.
           </p>
-          <p className="note">
-            <img src={cog} alt="Cog" className="cog-image" />
-            <br />
-            There may be some recipes that are not yet available in the database
-            as Blizzard does not provide an API for Classic professions.
-            <br />
-            I'm working on adding these asap!
-          </p>
-        </div>
       )}
 
       {currentRecipe && (
@@ -399,7 +389,8 @@ function Splash() {
       )}
 
       <footer className="footer">
-        <p>Built by Zep.</p>
+        ❤️<br />
+        <p>made by Zep</p>
       </footer>
     </div>
   );
